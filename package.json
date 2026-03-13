@@ -1,0 +1,20 @@
+{
+  "name": "2026-03-12_openclaw_website",
+  "version": "1.0.0",
+  "description": "**启动日期**: 2026-03-12   **目标**: 20 天内上线并获得收入   **预算**: ¥0（零成本启动）",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
