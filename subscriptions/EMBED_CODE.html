@@ -1,0 +1,139 @@
+<!-- 
+OpenClaw 订阅表单 - ConvertKit 嵌入代码
+使用说明：
+1. 在 ConvertKit 创建表单后，替换 YOUR_FORM_ID 为实际 ID
+2. 将此代码复制到需要显示表单的页面
+-->
+
+<!-- 订阅表单开始 -->
+<div class="openclaw-subscribe-form" style="
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+">
+  <h3 style="
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+  ">📬 订阅 OpenClaw 更新</h3>
+  
+  <p style="
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    font-size: 1rem;
+  ">获取最新的 AI 代理开发技巧、自动化教程和产品更新。</p>
+  
+  <form 
+    action="https://app.kit.com/forms/YOUR_FORM_ID/subscriptions" 
+    method="post" 
+    target="_blank"
+    style="max-width: 500px;"
+  >
+    <div style="margin-bottom: 1rem;">
+      <label for="ck_email" style="
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        font-size: 0.9rem;
+      ">邮箱地址</label>
+      <input 
+        type="email" 
+        id="ck_email" 
+        name="email_address" 
+        placeholder="your@email.com" 
+        required
+        style="
+          width: 100%;
+          padding: 0.75rem 1rem;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          border-radius: 6px;
+          background: rgba(255, 255, 255, 0.95);
+          color: #333;
+          font-size: 1rem;
+          box-sizing: border-box;
+        "
+      />
+    </div>
+    
+    <div style="margin-bottom: 1rem;">
+      <label for="ck_name" style="
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        font-size: 0.9rem;
+      ">姓名（可选）</label>
+      <input 
+        type="text" 
+        id="ck_name" 
+        name="name" 
+        placeholder="你的名字" 
+        style="
+          width: 100%;
+          padding: 0.75rem 1rem;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          border-radius: 6px;
+          background: rgba(255, 255, 255, 0.95);
+          color: #333;
+          font-size: 1rem;
+          box-sizing: border-box;
+        "
+      />
+    </div>
+    
+    <button 
+      type="submit" 
+      style="
+        width: 100%;
+        padding: 0.875rem 1.5rem;
+        background: white;
+        color: #667eea;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 0.5rem;
+      "
+      onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.2)'"
+      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'"
+    >
+      立即订阅
+    </button>
+    
+    <p style="
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      opacity: 0.8;
+      text-align: center;
+    ">
+      🔒 我们尊重隐私，绝不发送垃圾邮件。随时可以取消订阅。
+    </p>
+  </form>
+</div>
+<!-- 订阅表单结束 -->
+
+<!-- 
+使用位置建议:
+
+1. 首页底部 (docs/index.md):
+   在主要内容结束后添加此表单
+
+2. 关于页面 (docs/about.md):
+   在页面中部或底部添加
+
+3. 侧边栏组件 (docs/.vitepress/theme/components/):
+   创建全局订阅组件
+
+4. 文章末尾:
+   在每篇教程/指南结束后添加
+
+注意事项:
+- 务必替换 YOUR_FORM_ID 为 ConvertKit 实际表单 ID
+- 可在 ConvertKit 后台自定义表单样式
+- 建议先测试再部署到生产环境
+-->

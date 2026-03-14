@@ -1,0 +1,175 @@
+# OpenClaw Robots.txt
+# 最后更新：2026-03-14
+# 网站：https://openclaw.com
+
+# ============================================
+# 默认规则 - 允许所有搜索引擎抓取
+# ============================================
+User-agent: *
+Allow: /
+
+# 允许抓取的重要路径
+Allow: /docs/
+Allow: /blog/
+Allow: /features/
+Allow: /examples/
+Allow: /about/
+Allow: /pricing/
+Allow: /community/
+
+# 禁止抓取的路径（管理后台、API、私有内容）
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /config/
+
+# 禁止抓取带查询参数的 URL（避免重复内容）
+Disallow: /*?query=*
+Disallow: /*&query=*
+Disallow: /*?sort=*
+Disallow: /*?filter=*
+Disallow: /*?page=*
+
+# 允许抓取带参数的特定页面（如搜索）
+Allow: /search?*q=
+Allow: /docs?*topic=
+
+# Sitemap 位置
+Sitemap: https://openclaw.com/sitemap.xml
+
+# ============================================
+# Google 搜索引擎特定规则
+# ============================================
+User-agent: Googlebot
+Crawl-delay: 1
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+Disallow: /images/private/
+Disallow: /images/source/
+
+# Googlebot-Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# ============================================
+# Bing 搜索引擎特定规则
+# ============================================
+User-agent: Bingbot
+Crawl-delay: 2
+Allow: /
+
+# ============================================
+# Baidu 搜索引擎特定规则
+# ============================================
+User-agent: Baiduspider
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# ============================================
+# Yandex 搜索引擎特定规则
+# ============================================
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# ============================================
+# DuckDuckGo
+# ============================================
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 2
+
+# ============================================
+# 社交媒体爬虫（用于 Open Graph 预览）
+# ============================================
+User-agent: facebookexternalhit
+Allow: /
+Allow: /images/og-*.png$
+Allow: /images/twitter-*.png$
+
+User-agent: Twitterbot
+Allow: /
+Allow: /images/og-*.png$
+Allow: /images/twitter-*.png$
+
+User-agent: LinkedInBot
+Allow: /
+
+# ============================================
+# SEO 工具爬虫（允许审计工具）
+# ============================================
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+# ============================================
+# 禁止的爬虫（可选，根据需要调整）
+# ============================================
+# User-agent: MJ12bot
+# Disallow: /
+
+# User-agent: AhrefsBot
+# Disallow: /
+
+# ============================================
+# 图片爬虫通用规则
+# ============================================
+User-agent: *
+Disallow: /*.png$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.bmp$
+Disallow: /*.webp$
+
+# 但允许 Open Graph 和 Twitter Card 图片
+Allow: /images/og-*.png$
+Allow: /images/twitter-*.png$
+Allow: /images/blog-*.png$
+Allow: /images/og-home.png
+Allow: /images/og-features.png
+Allow: /images/og-docs.png
+Allow: /images/og-blog.png
+
+# ============================================
+# 文件类型规则
+# ============================================
+# 允许下载文件
+Allow: /*.pdf$
+Allow: /*.zip$
+Allow: /*.tar.gz$
+
+# 禁止抓取源代码文件（可选）
+# Disallow: /*.js$
+# Disallow: /*.css$
+# Disallow: /*.jsx$
+# Disallow: /*.tsx$
+
+# ============================================
+# 速率限制建议
+# ============================================
+# 对于过于激进的爬虫，可以添加更严格的限制
+# User-agent: *
+# Crawl-delay: 10
+
+# ============================================
+# 注意事项
+# ============================================
+# 1. 定期在 Google Search Console 测试 robots.txt
+# 2. 修改后使用验证工具检查：https://www.google.com/robots/tester
+# 3. robots.txt 是公开文件，不要包含敏感信息
+# 4. 禁止抓取不等于隐藏内容，敏感内容需要认证保护
