@@ -12,8 +12,8 @@ hero:
       text: 📖 完整教程
       link: /tutorials/00-introduction
     - theme: alt
-      text: 💬 关于页面
-      link: /about
+      text: 💬 在线客服（开发中）
+      link: /tutorials/00-introduction
 features:
   - title: 🚀 快速上手
     details: 从零开始，3 分钟完成安装配置，立即体验 AI 助手的强大能力
@@ -54,11 +54,18 @@ features:
 
 ---
 
-## 💬 联系方式
+## 💬 在线客服（开发中）
 
-**飞书**: 通过飞书机器人联系我们  
-**GitHub**: [提交 Issue](https://github.com/openclaw/openclaw/issues)  
-**Discord**: [加入社区](https://discord.gg/clawd)
+**即将上线**：右下角对话框，智能客服随时为你解答问题！
+
+- ✅ 智能问答：快速找到解决方案
+- ✅ 案例查询：查看其他用户如何解决类似问题
+- ✅ 转人工：复杂问题转接人工支持
+
+**当前联系方式**：
+- 飞书：通过飞书机器人
+- GitHub：[提交 Issue](https://github.com/openclaw/openclaw/issues)
+- Discord：[加入社区](https://discord.gg/clawd)
 
 ---
 
