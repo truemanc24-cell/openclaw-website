@@ -4,6 +4,8 @@ export default defineConfig({
   title: 'OpenClaw',
   description: 'OpenClaw - 强大的 AI 助手平台',
   
+  ignoreDeadLinks: true,
+  
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
