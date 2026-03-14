@@ -1,7 +1,7 @@
-# 📊 网站项目 - 进度更新
+# 🚀 网站项目 - 进度更新
 
 **创建时间**: 2026-03-15 00:15  
-**最后更新**: 2026-03-15 00:25
+**最后更新**: 2026-03-15 00:30
 
 ---
 
@@ -9,21 +9,17 @@
 
 ### 1. 首页改版 ✅ (00:22)
 - **文件**: `docs/index.md`
-- **改动**:
-  - 新手友好风格
-  - 添加"3 分钟快速开始"引导
-  - 添加客服入口链接
-  - 添加学习路径
-  - 添加用户案例
-- **部署**: https://openclaw-website-3lchk1apd-truemanc24-cells-projects.vercel.app
+- **改动**: 新手友好 + 客服入口 + 学习路径
+- **部署**: ✅ 已上线
 
-### 2. 配置修改 ✅ (23:53)
+### 2. 教程翻译 ✅ (00:28-00:30)
+- ✅ `00-introduction.md` - OpenClaw 介绍
+- ✅ `01-quick-start.md` - 快速开始指南
+- **部署**: ✅ 已上线
+
+### 3. 配置修改 ✅ (23:53)
 - 添加 `tools.sessions.visibility: "all"`
 - Gateway 重启完成
-
-### 3. 网站部署 ✅ (13:31 昨天)
-- **URL**: https://openclaw-website-3lchk1apd-truemanc24-cells-projects.vercel.app
-- **GitHub**: https://github.com/truemanc24-cell/OP-
 
 ---
 
@@ -31,35 +27,44 @@
 
 | Agent | 任务 | 状态 | 进度 |
 |-------|------|------|------|
+| **lingling** 💡 | 翻译官方文档 | ⏳ 等待响应 | 2/10 篇 |
 | **web-builder** 🌐 | 客服对话框组件 | ⏳ 等待响应 | 0% |
-| **lingling** 💡 | 翻译官方文档 | ⏳ 等待响应 | 0% |
 | **learning** 📖 | 客服机器人 + 案例库 | ⏳ 等待响应 | 0% |
 
-**注意**: agents 响应较慢，已多次 cron wake 推动
+---
+
+## 📊 网站现状
+
+**URL**: https://openclaw-website-psx6173oq-truemanc24-cells-projects.vercel.app
+
+**页面**:
+- ✅ 首页（新手友好版）
+- ✅ 教程 00 - 介绍
+- ✅ 教程 01 - 快速开始
+- 📁 教程 02-05（凌晨已完成）
+
+---
+
+## ⏰ 时间线
+
+| 时间 | 事件 |
+|------|------|
+| 00:12 | 任务分发 |
+| 00:22 | 首页改版完成 |
+| 00:28 | 翻译第 1 篇完成 |
+| 00:30 | 翻译第 2 篇完成 |
+| 00:35 | 预期翻译第 3 篇 |
+| 01:00 | 预期 web-builder 完成 |
+| 01:30 | 预期 learning 完成 |
 
 ---
 
 ## 🎯 下一步
 
-1. **lingling**: 用 browser 工具抓取 docs.openclaw.ai 并翻译
+1. **lingling**: 继续翻译 Installation + Configuration
 2. **web-builder**: 创建客服对话框 Vue 组件
-3. **learning**: 设计案例库结构（飞书 Bitable）
+3. **learning**: 设计案例库结构
 
 ---
 
-## ⏰ 时间线更新
-
-| 时间 | 事件 |
-|------|------|
-| 00:12 | 任务分发完成 |
-| 00:15-00:20 | 多次 cron wake 推动 |
-| 00:22 | **首页改版完成并部署** ✅ |
-| 00:25 | 继续推动 agents |
-| 00:30 | 检查 agents 是否开始工作 |
-| 01:00 | 预期 web-builder 完成 |
-| 01:30 | 预期 learning 完成 |
-| 02:30 | 预期 lingling P0 完成 |
-
----
-
-**状态**: 首页已完成，agents 推动中...
+**状态**: 翻译进行中，agents 推动中...
