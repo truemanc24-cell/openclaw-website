@@ -10,17 +10,17 @@ hero:
       link: /tutorials/01-quick-start
     - theme: alt
       text: 📖 完整教程
-      link: /tutorials/
+      link: /tutorials/00-introduction
     - theme: alt
-      text: 💬 在线客服
-      link: /support
+      text: 💬 关于页面
+      link: /about
 features:
   - title: 🚀 快速上手
     details: 从零开始，3 分钟完成安装配置，立即体验 AI 助手的强大能力
     link: /tutorials/01-quick-start
   - title: 📖 详细教程
     details: 循序渐进的中文教程，从入门到精通，每一步都有详细指导
-    link: /tutorials/
+    link: /tutorials/00-introduction
   - title: 🤖 多 Agent 协作
     details: 配置多个专业 Agent 协同工作，每个 Agent 都有独特的技能和职责
     link: /guide/introduction
@@ -54,13 +54,11 @@ features:
 
 ---
 
-## 💬 需要帮助？
+## 💬 联系方式
 
-**右下角 💬 按钮** 打开在线客服，智能机器人随时为你解答问题！
-
-- ✅ 智能问答：快速找到解决方案
-- ✅ 案例查询：查看其他用户如何解决类似问题
-- ✅ 转人工：复杂问题转接人工支持
+**飞书**: 通过飞书机器人联系我们  
+**GitHub**: [提交 Issue](https://github.com/openclaw/openclaw/issues)  
+**Discord**: [加入社区](https://discord.gg/clawd)
 
 ---
 
