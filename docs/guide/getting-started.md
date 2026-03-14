@@ -55,4 +55,4 @@ openclaw gateway status
 ## 下一步
 
 - [配置指南](/guide/configuration) - 详细配置选项
-- [技能开发](/guide/skills) - 创建自定义技能
+- [教程列表](/tutorials/) - 完整教程系列

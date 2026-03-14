@@ -1030,7 +1030,7 @@ sudo ufw status
 
 完成入门教程后，可以学习进阶配置：
 
-**阅读下一篇**：[教程 06: 多 Agent 配置 - 工作/生活/学习分离](../06-07-advanced/06-multi-agent.md)
+**阅读下一篇**：[教程 06: 多 Agent 配置 - 工作/生活/学习分离](../../06-07-advanced/06-multi-agent.md)（即将发布）
 
 ---
 
