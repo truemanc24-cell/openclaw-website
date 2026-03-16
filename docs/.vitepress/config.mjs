@@ -28,10 +28,10 @@ export default defineConfig({
         text: '技能市场',
         items: [
           { text: '技能概览', link: '/skills/' },
-          { text: 'Feishu 文档', link: '/skills/feishu-doc' },
-          { text: 'GitHub', link: '/skills/github' },
-          { text: '天气', link: '/skills/weather' },
-          { text: '浏览器自动化', link: '/skills/browser' }
+          { text: '📄 Feishu 文档', link: '/skills/feishu-doc/' },
+          { text: '💻 GitHub', link: '/skills/github/' },
+          { text: '🌤️ 天气', link: '/skills/weather/' },
+          { text: '🌐 浏览器自动化', link: '/skills/browser/' }
         ]
       }
     ],
