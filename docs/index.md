@@ -57,6 +57,9 @@ features:
 
 ---
 
+<!-- 顶部广告 -->
+<AdUnit />
+
 ## 💬 在线客服
 
 **已上线**：点击右下角 💬 按钮，快速联系客服！
@@ -108,6 +111,9 @@ openclaw dashboard
 ---
 
 **社区**: [GitHub](https://github.com/openclaw/openclaw) | [Discord](https://discord.gg/clawd) | [官方文档](https://docs.openclaw.ai)
+
+<!-- 底部广告 -->
+<AdUnit />
 
 <!-- 客服按钮组件 -->
 <CustomerServiceButton />
