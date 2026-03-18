@@ -1,0 +1,528 @@
+/* 基础样式重置和增强 */
+
+/* 全局背景 */
+html, body {
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
+/* 主容器 */
+.VPHome,
+.VPDoc,
+.VPPage {
+  background: transparent !important;
+}
+
+/* 导航栏增强 */
+.VPNavBar {
+  background: rgba(10, 10, 15, 0.85) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBar .title {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+/* Hero 区域增强 */
+.VPHome .hero {
+  position: relative;
+}
+
+.VPHome .hero .main {
+  position: relative;
+  z-index: 1;
+}
+
+.VPHome .hero .name {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .VPHome .hero .name {
+    font-size: 2.5rem;
+  }
+}
+
+.VPHome .hero .text {
+  color: var(--vp-c-text-1) !important;
+  font-weight: 600;
+}
+
+.VPHome .hero .tagline {
+  color: var(--vp-c-text-2) !important;
+  text-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+}
+
+/* 按钮增强 */
+.VPButton {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  transition: var(--vp-transition);
+}
+
+.VPButton.brand {
+  background: var(--gradient-primary);
+  border: none;
+  box-shadow: var(--glow-primary);
+}
+
+.VPButton.brand:hover {
+  box-shadow: 0 0 30px rgba(0, 217, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.VPButton.alt {
+  background: transparent;
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand);
+}
+
+.VPButton.alt:hover {
+  background: rgba(0, 217, 255, 0.1);
+  box-shadow: var(--glow-primary);
+  color: var(--vp-c-brand-light);
+}
+
+/* 按钮光效动画 */
+.VPButton::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+  opacity: 0;
+}
+
+.VPButton:hover::before {
+  left: 100%;
+  opacity: 1;
+}
+
+/* 特性卡片增强 */
+.VPFeature {
+  background: rgba(15, 15, 26, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--vp-radius-large);
+  transition: var(--vp-transition);
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: var(--vp-shadow-2);
+  transform: translateY(-4px);
+}
+
+.VPFeature .icon {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 文档内容增强 */
+.VPDoc .content {
+  background: transparent;
+}
+
+.VPDoc .container {
+  background: rgba(15, 15, 26, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: var(--vp-radius-large);
+  border: 1px solid var(--vp-c-divider-light);
+}
+
+/* 侧边栏增强 */
+.VPSidebar {
+  background: rgba(10, 10, 15, 0.95) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.VPSidebarItem .text {
+  color: var(--vp-c-text-2);
+  transition: var(--vp-transition);
+}
+
+.VPSidebarItem .text:hover {
+  color: var(--vp-c-brand);
+}
+
+.VPSidebarItem.active .text {
+  color: var(--vp-c-brand);
+  font-weight: 600;
+}
+
+/* 链接增强 */
+a {
+  color: var(--vp-c-brand);
+  transition: var(--vp-transition);
+}
+
+a:hover {
+  color: var(--vp-c-accent);
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+/* 代码块增强 */
+.vp-code-group .tabs {
+  background: rgba(10, 10, 15, 0.9);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.vp-code-group .tabs label {
+  color: var(--vp-c-text-3);
+  transition: var(--vp-transition);
+}
+
+.vp-code-group .tabs label:hover {
+  color: var(--vp-c-brand);
+}
+
+.vp-code-group .tabs label.active {
+  color: var(--vp-c-brand);
+}
+
+div[class*='language-'] {
+  background: rgba(10, 10, 15, 0.8);
+  border: 1px solid var(--vp-c-divider);
+  box-shadow: var(--vp-shadow-1);
+}
+
+div[class*='language-']::before {
+  background: var(--gradient-primary);
+  box-shadow: var(--glow-primary);
+}
+
+/* 表格增强 */
+table {
+  background: rgba(15, 15, 26, 0.4);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--vp-radius);
+  overflow: hidden;
+}
+
+table th {
+  background: rgba(0, 217, 255, 0.1);
+  color: var(--vp-c-brand);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+table tr:hover {
+  background: rgba(0, 217, 255, 0.05);
+}
+
+/* 引用块增强 */
+blockquote {
+  border-left-color: var(--vp-c-brand);
+  background: rgba(0, 217, 255, 0.05);
+  box-shadow: inset 3px 0 0 var(--vp-c-brand);
+}
+
+/* ========== 未来感增强特效 ========== */
+
+/* 页面加载动画 */
+@keyframes fadeInGlow {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+.VPContent {
+  animation: fadeInGlow 0.8s ease-out;
+}
+
+/* 悬浮光点效果 */
+@keyframes floatParticle {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-10px) rotate(120deg);
+  }
+  66% {
+    transform: translateY(-5px) rotate(240deg);
+  }
+}
+
+.VPHome .hero .image-container::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, rgba(0, 217, 255, 0.8), transparent);
+  border-radius: 50%;
+  top: 20%;
+  left: 10%;
+  animation: floatParticle 6s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.6);
+}
+
+.VPHome .hero .image-container::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, rgba(0, 255, 136, 0.8), transparent);
+  border-radius: 50%;
+  top: 60%;
+  right: 15%;
+  animation: floatParticle 8s ease-in-out infinite reverse;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.6);
+}
+
+/* 文字辉光效果 */
+.VPHome h1,
+.VPHome h2,
+.VPHome h3 {
+  text-shadow: 
+    0 0 20px rgba(0, 217, 255, 0.3),
+    0 0 40px rgba(0, 217, 255, 0.2);
+  position: relative;
+}
+
+/* 卡片边缘光效 */
+.VPFeature::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 217, 255, 0.1) 0%,
+    transparent 50%,
+    rgba(0, 255, 136, 0.1) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.VPFeature:hover::after {
+  opacity: 1;
+}
+
+/* 滚动条未来感增强 */
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 15, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 217, 255, 0.6),
+    rgba(0, 255, 136, 0.6)
+  );
+  border-radius: 10px;
+  border: 2px solid rgba(10, 10, 15, 0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 217, 255, 0.9),
+    rgba(0, 255, 136, 0.9)
+  );
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+}
+
+/* 输入框增强 */
+input[type="text"],
+input[type="search"],
+textarea {
+  background: rgba(10, 10, 15, 0.6);
+  border: 1px solid rgba(0, 217, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  border-color: rgba(0, 217, 255, 0.6);
+  box-shadow: 
+    0 0 20px rgba(0, 217, 255, 0.2),
+    inset 0 0 10px rgba(0, 217, 255, 0.05);
+  background: rgba(10, 10, 15, 0.8);
+}
+
+/* 选中文字高亮 */
+::selection {
+  background: rgba(0, 217, 255, 0.3);
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+/* 图片增强 */
+img {
+  border-radius: var(--vp-radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  box-shadow: 
+    0 15px 40px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(0, 217, 255, 0.3);
+  transform: scale(1.02);
+}
+
+/* 分割线增强 */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 217, 255, 0.5),
+    rgba(0, 255, 136, 0.5),
+    transparent
+  );
+  margin: 2em 0;
+}
+
+/* 列表项增强 */
+li::marker {
+  color: var(--vp-c-brand);
+  text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+/* 徽章增强 */
+.badge {
+  background: var(--gradient-primary);
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(0, 217, 255, 0.4);
+}
+
+/* 返回顶部按钮 */
+.VPButton.back-to-top {
+  background: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 217, 255, 0.3);
+}
+
+.VPButton.back-to-top:hover {
+  background: rgba(0, 217, 255, 0.2);
+  box-shadow: 0 0 25px rgba(0, 217, 255, 0.4);
+}
+
+/* 自定义容器增强 */
+.custom-block {
+  border-radius: var(--vp-radius);
+  border: 1px solid transparent;
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-accent);
+  background: rgba(0, 255, 136, 0.05);
+}
+
+.custom-block.warning {
+  border-color: var(--vp-c-pink);
+  background: rgba(255, 0, 110, 0.05);
+}
+
+.custom-block.danger {
+  border-color: var(--vp-c-purple);
+  background: rgba(123, 44, 191, 0.05);
+}
+
+/* 搜索框增强 */
+.DocSearch {
+  background: rgba(10, 10, 15, 0.8);
+  border: 1px solid var(--vp-c-divider);
+}
+
+.DocSearch:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: var(--glow-primary);
+}
+
+/* 页脚增强 */
+.VPDocFooter {
+  border-top: 1px solid var(--vp-c-divider);
+  background: rgba(10, 10, 15, 0.5);
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 15, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-light);
+  box-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+/* 选择文本颜色 */
+::selection {
+  background: rgba(0, 217, 255, 0.3);
+  color: var(--vp-c-text-1);
+}
+
+/* 加载动画 */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 217, 255, 0.1) 0%,
+    rgba(0, 217, 255, 0.2) 50%,
+    rgba(0, 217, 255, 0.1) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}

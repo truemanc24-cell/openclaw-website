@@ -16,5 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "tsparticles-slim": "^2.12.0"
   }
 }

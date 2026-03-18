@@ -1,0 +1,233 @@
+/* ========== 未来感主题变量 - 增强版 ========== */
+:root {
+  /* 主色调 - 赛博朋克风格 */
+  --vp-c-brand: #00d9ff;
+  --vp-c-brand-light: #00ffff;
+  --vp-c-brand-lighter: #66f0ff;
+  --vp-c-brand-dark: #0099cc;
+  --vp-c-brand-darker: #006699;
+  
+  /* 辅助色 */
+  --vp-c-accent: #00ff88;
+  --vp-c-accent-light: #66ffaa;
+  --vp-c-accent-dark: #00cc66;
+  
+  /* 强调色 - 紫色 */
+  --vp-c-purple: #7b2cbf;
+  --vp-c-purple-light: #9d4edd;
+  --vp-c-purple-dark: #5a189a;
+  
+  /* 警告色 - 粉红色 */
+  --vp-c-pink: #ff006e;
+  --vp-c-pink-light: #ff3388;
+  --vp-c-pink-dark: #cc0055;
+  
+  /* 新增 - 蓝色强调 */
+  --vp-c-blue: #3a86ff;
+  --vp-c-blue-light: #66a3ff;
+  --vp-c-blue-dark: #1a56db;
+  
+  /* 背景色 */
+  --vp-c-bg: #050508;
+  --vp-c-bg-alt: #0a0a12;
+  --vp-c-bg-elv: #12121f;
+  --vp-c-bg-soft: #0a0a15;
+  
+  /* 文字色 */
+  --vp-c-text-1: rgba(255, 255, 255, 0.98);
+  --vp-c-text-2: rgba(255, 255, 255, 0.75);
+  --vp-c-text-3: rgba(255, 255, 255, 0.55);
+  --vp-c-text-4: rgba(255, 255, 255, 0.35);
+  
+  /* 边框色 */
+  --vp-c-divider: rgba(0, 217, 255, 0.25);
+  --vp-c-divider-light: rgba(0, 217, 255, 0.12);
+  
+  /* 阴影 - 增强光晕 */
+  --vp-shadow-1: 0 0 25px rgba(0, 217, 255, 0.15);
+  --vp-shadow-2: 0 0 35px rgba(0, 217, 255, 0.25);
+  --vp-shadow-3: 0 0 50px rgba(0, 217, 255, 0.35);
+  
+  /* 光晕效果 - 增强版 */
+  --glow-primary: 0 0 25px rgba(0, 217, 255, 0.6);
+  --glow-secondary: 0 0 20px rgba(0, 255, 136, 0.5);
+  --glow-accent: 0 0 30px rgba(123, 44, 191, 0.5);
+  --glow-blue: 0 0 25px rgba(58, 134, 255, 0.5);
+  --glow-pink: 0 0 25px rgba(255, 0, 110, 0.5);
+  
+  /* 渐变 - 增强版 */
+  --gradient-primary: linear-gradient(135deg, #00d9ff 0%, #00ff88 100%);
+  --gradient-secondary: linear-gradient(135deg, #7b2cbf 0%, #ff006e 100%);
+  --gradient-bg: linear-gradient(135deg, #050508 0%, #0a0a12 50%, #12121f 100%);
+  --gradient-glow: linear-gradient(135deg, 
+    rgba(0, 217, 255, 0.2) 0%, 
+    rgba(0, 255, 136, 0.15) 50%, 
+    rgba(123, 44, 191, 0.2) 100%);
+  
+  /* 圆角 */
+  --vp-radius: 10px;
+  --vp-radius-small: 6px;
+  --vp-radius-large: 16px;
+  
+  /* 过渡 */
+  --vp-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --vp-transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --vp-transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 暗色模式增强 */
+.dark {
+  --vp-c-brand: #00d9ff;
+  --vp-c-brand-light: #00ffff;
+  --vp-c-accent: #00ff88;
+}
+
+/* ========== 未来感动画 ========== */
+
+/* 光晕动画 */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: var(--glow-primary);
+  }
+  50% {
+    box-shadow: 0 0 35px rgba(0, 217, 255, 0.8);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* 新增 - 能量流动 */
+@keyframes energyFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 新增 - 霓虹闪烁 */
+@keyframes neonFlicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 
+      0 0 10px rgba(0, 217, 255, 0.8),
+      0 0 20px rgba(0, 217, 255, 0.6),
+      0 0 30px rgba(0, 217, 255, 0.4);
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+    opacity: 0.5;
+  }
+}
+
+/* 新增 - 粒子悬浮 */
+@keyframes particleFloat {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translate(10px, -15px) rotate(90deg);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-5px, -25px) rotate(180deg);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translate(15px, -10px) rotate(270deg);
+    opacity: 0.9;
+  }
+}
+
+/* 新增 - 光束扫描 */
+@keyframes beamScan {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* 新增 - 色彩变换 */
+@keyframes colorShift {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* ========== 工具类 ========== */
+.glow-effect {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.float-effect {
+  animation: float 3s ease-in-out infinite;
+}
+
+.pulse-effect {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.energy-flow {
+  background: var(--gradient-primary);
+  background-size: 200% 200%;
+  animation: energyFlow 3s ease infinite;
+}
+
+.neon-text {
+  animation: neonFlicker 2s ease-in-out infinite;
+}
+
+.particle-float {
+  animation: particleFloat 8s ease-in-out infinite;
+}
+
+.beam-scan::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 217, 255, 0.3),
+    transparent
+  );
+  animation: beamScan 2s ease-in-out infinite;
+}
+
+.color-shift {
+  animation: colorShift 10s linear infinite;
+}
