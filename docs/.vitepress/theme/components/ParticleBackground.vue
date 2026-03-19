@@ -34,7 +34,7 @@ const lightSources = ref([
 
 onMounted(async () => {
   // 动态加载 tsparticles
-  const { loadFull } = await import('tsparticles')
+  const { loadFull } = await import('@tsparticles/slim')
   tsParticles = await loadFull()
   
   // 初始化发光粒子画布
