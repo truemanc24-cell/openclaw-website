@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: '/guide/introduction' },
+      { text: 'AI 新闻', link: '/news/' },
       { text: '技能', link: '/skills/' },
       { text: '关于', link: '/about' }
     ],

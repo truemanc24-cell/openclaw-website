@@ -21,7 +21,22 @@
 
 ## 🔥 热门技能
 
-### 1. Feishu 文档技能 📄
+| 技能名称 | 技能介绍 | 评分 | 下载路径 |
+|---------|---------|------|---------|
+| **Feishu 文档** 📄 | 创建、编辑、管理飞书文档，支持批量操作 | ⭐⭐⭐⭐⭐ | `clawhub install feishu-doc` |
+| **GitHub** 💻 | 管理 GitHub 仓库、Issues、PRs，自动回复 | ⭐⭐⭐⭐⭐ | `clawhub install github` |
+| **天气** 🌤️ | 获取实时天气和预报，支持多地点 | ⭐⭐⭐⭐ | `clawhub install weather` |
+| **浏览器自动化** 🌐 | 控制浏览器执行自动化任务，数据抓取 | ⭐⭐⭐⭐⭐ | `clawhub install browser` |
+| **Tavily 搜索** 🔍 | 使用 Tavily API 搜索网络，获取实时信息 | ⭐⭐⭐⭐⭐ | `clawhub install tavily-search` |
+| **PDF 编辑** 📄 | 编辑 PDF 文档，支持自然语言指令 | ⭐⭐⭐⭐ | `clawhub install nano-pdf` |
+| **自我改进** 🧠 | 记录学习和错误，持续提升能力 | ⭐⭐⭐⭐⭐ | `clawhub install self-improving-agent` |
+| **技能推荐** 💡 | 推荐和验证 OpenClaw 技能 | ⭐⭐⭐⭐ | `clawhub install skill-vetter` |
+
+---
+
+### 技能详情
+
+#### 1. Feishu 文档技能 📄
 
 **功能**: 创建、编辑、管理飞书文档
 
@@ -52,7 +67,7 @@ clawhub install feishu-doc
 
 ---
 
-### 2. GitHub 技能 💻
+#### 2. GitHub 技能 💻
 
 **功能**: 管理 GitHub 仓库、Issues、PRs
 
@@ -77,7 +92,7 @@ gh auth login
 
 ---
 
-### 3. 天气技能 🌤️
+#### 3. 天气技能 🌤️
 
 **功能**: 获取实时天气和预报
 
@@ -98,7 +113,7 @@ clawhub install weather
 
 ---
 
-### 4. 浏览器自动化技能 🌐
+#### 4. 浏览器自动化技能 🌐
 
 **功能**: 控制浏览器执行自动化任务
 

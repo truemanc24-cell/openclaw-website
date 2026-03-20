@@ -3,14 +3,14 @@
 # iMessage（传统：imsg）
 
 <Warning>
-  对于新的 iMessage 部署，请使用 <a href="/channels/bluebubbles">BlueBubbles</a>。
+  对于新的 iMessage 部署，请使用 [BlueBubbles](/channels/bluebubbles)。
 
   `imsg` 集成是传统的，可能在未来版本中移除。
 </Warning>
 
 状态：传统外部 CLI 集成。网关生成 `imsg rpc` 并通过 stdio 上的 JSON-RPC 通信（无单独的守护进程/端口）。
 
-<CardGroup cols={3}>
+<CardGroup cols="3">
   <Card title="BlueBubbles（推荐）" icon="message-circle" href="/channels/bluebubbles">
     新设置的首选 iMessage 路径。
   </Card>
