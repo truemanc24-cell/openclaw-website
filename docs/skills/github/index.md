@@ -1,202 +1,152 @@
 # GitHub 技能
 
-**技能名称**: `github`  
-**版本**: 1.0.0  
+**评级**: ⭐⭐⭐⭐⭐  
+**类别**: 工作效率  
 **来源**: [ClawHub](https://clawhub.ai/)
 
 ---
 
-## 📖 技能介绍
+## 📖 详细介绍
 
-GitHub 技能让你可以通过自然语言管理 GitHub 仓库、Issues、PRs，实现自动化代码管理。
+GitHub 技能是 OpenClaw 的 GitHub 集成工具，让你可以通过自然语言管理 GitHub 仓库、Issues、PRs 等。
 
 ### 核心功能
 
-- 📦 **仓库管理** - 创建、克隆、推送仓库
-- 🐛 **Issue 管理** - 创建、评论、关闭 Issue
-- 🔀 **PR 操作** - 创建、审查、合并 Pull Request
-- 🏃 **CI/CD** - 查看构建状态、触发工作流
-- 📊 **数据统计** - 仓库统计、贡献分析
+- ✅ 管理 GitHub 仓库
+- ✅ 创建/回复 Issues
+- ✅ 管理 Pull Requests
+- ✅ CI/CD状态监控
+- ✅ 代码审查辅助
+- ✅ 仓库数据分析
+
+### 使用场景
+
+| 场景 | 说明 |
+|------|------|
+| Issue 管理 | 自动回复、分类、标签管理 |
+| PR 审查 | 自动检查代码规范 |
+| 仓库监控 | CI/CD状态通知 |
+| 数据分析 | 仓库统计、贡献分析 |
 
 ---
 
-## 🚀 快速开始
+## 📥 安装方式
 
-### 1. 安装 GitHub CLI
+### 前置要求
 
 ```bash
-# macOS
+# 安装 GitHub CLI
 brew install gh
 
-# Linux
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-sudo apt update
-sudo apt install gh
-
-# Windows (PowerShell)
-winget install --id GitHub.cli
-```
-
-### 2. 认证 GitHub
-
-```bash
+# 认证 GitHub
 gh auth login
 ```
 
-选择：
-- GitHub.com
-- HTTPS 协议
-- Login with a web browser
-
-### 3. 验证认证
+### 安装技能
 
 ```bash
-gh auth status
+clawhub install github
 ```
 
-应该显示：
-```
-✓ Logged in to github.com as your-username
-```
+### 配置认证
 
----
+在 `~/.openclaw/openclaw.json` 中添加：
 
-## 💡 使用示例
-
-### 创建仓库
-
-```
-@dev 帮我创建一个 GitHub 仓库，名字叫 my-project，公开的
-```
-
-### 查看 Issues
-
-```
-@dev 查看 openclaw/openclaw 的最新 Issues
-```
-
-### 创建 PR
-
-```
-@dev 帮我创建一个 PR，从 feature-branch 合并到 main
-```
-
-### 查看 CI 状态
-
-```
-@dev 查看最新一次 CI 构建的状态
-```
-
-### 代码审查
-
-```
-@dev 审查 PR #123 的代码变更
+```json
+{
+  "skills": {
+    "github": {
+      "enabled": true,
+      "config": {
+        "token": "ghp_xxxxxxxxxxxxx"
+      }
+    }
+  }
+}
 ```
 
 ---
 
-## 🔧 高级用法
+## 🔧 使用方法
 
-### 自动化 Issue 回复
-
-```javascript
-// 自动回复特定标签的 Issue
-gh issue list --label "bug" | while read issue; do
-  gh issue comment $issue --body "已收到，正在处理..."
-done
-```
-
-### 批量管理 PR
+### 基本命令
 
 ```bash
-# 列出所有待审查的 PR
-gh pr list --state open
+# 查看仓库信息
+@agent 查看我的 xxx 仓库信息
 
-# 批量添加标签
-gh pr edit 123 --add-label "needs-review"
+# 创建 Issue
+@agent 在 xxx 仓库创建一个 Issue，标题是"Bug 修复"
+
+# 查看 PR 状态
+@agent 查看 xxx 仓库的 PR 状态
+
+# 回复 Issue
+@agent 回复 Issue #123：这个问题已经修复
 ```
 
-### CI/CD 集成
+### 高级用法
 
-```bash
-# 查看构建日志
-gh run view --log
+#### 1. 自动回复 Issue
 
-# 重新运行失败的构建
-gh run rerun --failed
+```
+@agent 监控我的仓库，有新 Issue 时自动回复"收到，会尽快处理"
+```
+
+#### 2. PR 自动审查
+
+```
+@agent 审查 PR #456，检查代码规范和测试覆盖率
+```
+
+#### 3. CI/CD监控
+
+```
+@agent 监控 xxx 仓库的 CI 状态，失败时通知我
 ```
 
 ---
 
-## ⚠️ 注意事项
+## 📊 技能参数
 
-### 认证方式
-
-**推荐**: Personal Access Token (Fine-grained)
-
-1. 访问 https://github.com/settings/tokens
-2. 生成新 Token（Fine-grained）
-3. 选择需要的权限：
-   - `contents`: 仓库内容
-   - `issues`: Issues 管理
-   - `pull_requests`: PR 管理
-   - `workflows`: CI/CD
-
-### 速率限制
-
-| 认证方式 | 限制 |
-|---------|------|
-| 未认证 | 60 次/小时 |
-| 已认证 | 5000 次/小时 |
-
-### 常见问题
-
-**Q: gh auth login 失败？**  
-A: 检查网络连接，或改用 Token 方式：`export GH_TOKEN=xxx`
-
-**Q: 权限不足？**  
-A: 检查 Token 权限配置，确保有所需 scope
-
-**Q: 仓库找不到？**  
-A: 确认仓库名称正确，且有访问权限
+| 参数 | 类型 | 默认值 | 说明 |
+|------|------|--------|------|
+| `enabled` | boolean | `false` | 是否启用技能 |
+| `token` | string | - | GitHub Personal Access Token |
+| `owner` | string | - | 默认仓库所有者 |
+| `repo` | string | - | 默认仓库名 |
 
 ---
 
-## 📊 最佳实践
+## 🔗 下载链接
 
-### ✅ 推荐做法
-
-1. **使用 Fine-grained Token** - 最小权限原则
-2. **配置 Git 用户信息** - `git config user.name/email`
-3. **使用 SSH 密钥** - 避免每次输入密码
-4. **定期清理 Token** - 撤销不用的 Token
-
-### ❌ 避免踩坑
-
-1. **不要提交 Token** - 使用环境变量
-2. **不要滥用 API** - 注意速率限制
-3. **不要忽略错误** - 及时处理失败
+| 来源 | 链接 |
+|------|------|
+| **ClawHub** | [clawhub.ai/skills/github](https://clawhub.ai/skills/github) |
+| **GitHub** | [github.com/openclaw/skill-github](https://github.com/openclaw/skill-github) |
+| **npm** | [npmjs.com/package/@openclaw/skill-github](https://npmjs.com/package/@openclaw/skill-github) |
 
 ---
 
-## 🔗 相关资源
+## 💡 经验技巧
 
-- [GitHub CLI 文档](https://cli.github.com/manual/)
-- [GitHub API 文档](https://docs.github.com/en/rest)
-- [ClawHub 技能页面](https://clawhub.ai/skills/github)
+### ✅ 最佳实践
+
+1. **使用 Personal Access Token** - 比密码更安全
+2. **配置 webhook** - 实现自动触发
+3. **定期清理 Session** - 避免 token 过期
+4. **设置适当的权限** - 最小权限原则
+
+### ❌ 常见问题
+
+| 问题 | 解决方案 |
+|------|---------|
+| 认证失败 | 检查 token 是否有效 |
+| 权限不足 | 确保 token 有所需权限 |
+| 速率限制 | 添加请求延迟 |
+| webhook 不触发 | 检查 webhook 配置 |
 
 ---
 
-## 💬 用户反馈
-
-> "用这个技能自动管理 Issue，效率提升太多！"  
-> —— 开源项目维护者
-
-> "CI 状态监控功能很实用，不用手动刷新页面了"  
-> —— 全栈开发者
-
----
-
-**最后更新**: 2026-03-16  
-**维护**: OpenClaw 中文站
+**最后更新**: 2026-03-21  
+**维护者**: OpenClaw 中文站

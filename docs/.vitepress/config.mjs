@@ -28,18 +28,15 @@ export default defineConfig({
       {
         text: '技能市场',
         items: [
-          { text: '技能概览', link: '/skills/' },
-          { text: '🔥 ClawHub Top 50', link: '/skills/clawhub-top50/' },
+          { text: '📋 技能列表', link: '/skills/' },
           { text: '📄 Feishu 文档', link: '/skills/feishu-doc/' },
           { text: '💻 GitHub', link: '/skills/github/' },
+          { text: '🔍 Tavily 搜索', link: '/skills/tavily-search/' },
           { text: '🌤️ 天气', link: '/skills/weather/' },
           { text: '🌐 浏览器自动化', link: '/skills/browser/' },
-          { text: '— ClawHub 热门 —', link: '/skills/clawhub-top50/' },
-          { text: '🥇 self-improving-agent', link: '/skills/clawhub/self-improving-agent/' },
-          { text: '🥈 ontology', link: '/skills/clawhub/ontology/' },
-          { text: '🥉 self-improving', link: '/skills/clawhub/self-improving/' },
-          { text: 'Obsidian', link: '/skills/clawhub/obsidian/' },
-          { text: 'Nano Banana Pro', link: '/skills/clawhub/nano-banana-pro/' }
+          { text: '📄 PDF 编辑', link: '/skills/nano-pdf/' },
+          { text: '🧠 自我改进', link: '/skills/self-improving-agent/' },
+          { text: '💡 技能推荐', link: '/skills/skill-vetter/' }
         ]
       }
     ],
