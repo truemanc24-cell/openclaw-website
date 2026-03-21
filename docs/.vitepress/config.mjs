@@ -43,6 +43,17 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/openclaw/openclaw' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under MIT License',
+      copyright: 'Copyright © 2026 OpenClaw',
+      items: [
+        {
+          text: '隐私政策',
+          link: '/privacy'
+        }
+      ]
+    }
   }
 })
