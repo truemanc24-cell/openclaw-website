@@ -38,6 +38,9 @@ features:
     link: /about
 ---
 
+<!-- AdSense 自动广告 -->
+<AdSense />
+
 ## 🎯 学习路径
 
 ### 新手入门（必学）

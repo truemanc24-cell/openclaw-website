@@ -2,42 +2,63 @@
   <div class="ad-container">
     <!-- 顶部横幅广告 -->
     <div class="ad-banner-top">
-      <div class="ad-placeholder">
-        <span class="ad-label">广告</span>
-        <p>728×90 横幅广告位</p>
-        <p class="ad-contact">广告合作：ad@openclaw.ai</p>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8650398521051691"
+           data-ad-slot="TOP_BANNER_SLOT"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </div>
 
     <!-- 侧边栏广告 -->
     <div class="ad-sidebar">
-      <div class="ad-placeholder-square">
-        <span class="ad-label">广告</span>
-        <p>300×250 方形广告</p>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8650398521051691"
+           data-ad-slot="SIDEBAR_SLOT"
+           data-ad-format="auto"
+           data-full-width-responsive="false"></ins>
     </div>
 
     <!-- 内容插页广告 -->
     <div class="ad-in-content">
-      <div class="ad-placeholder">
-        <span class="ad-label">广告</span>
-        <p>970×90 插页广告</p>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8650398521051691"
+           data-ad-slot="IN_CONTENT_SLOT"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </div>
 
     <!-- 底部广告 -->
     <div class="ad-footer">
-      <div class="ad-placeholder">
-        <span class="ad-label">广告</span>
-        <p>728×90 底部广告</p>
-      </div>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8650398521051691"
+           data-ad-slot="FOOTER_SLOT"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </div>
   </div>
 </template>
 
 <script setup>
-// 广告组件
-// 后续可接入 Google AdSense 或其他广告平台
+import { onMounted } from 'vue'
+
+const ADSENSE_CLIENT_ID = 'ca-pub-8650398521051691'
+
+onMounted(() => {
+  // 延迟加载广告，避免影响页面性能
+  setTimeout(() => {
+    if (typeof window.adsbygoogle !== 'undefined') {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({})
+      } catch (e) {
+        console.warn('AdSense 加载失败:', e)
+      }
+    }
+  }, 1000)
+})
 </script>
 
 <style scoped>
@@ -49,6 +70,7 @@
   max-width: 728px;
   margin: 20px auto;
   text-align: center;
+  min-height: 90px;
 }
 
 .ad-sidebar {
@@ -57,69 +79,40 @@
   top: 100px;
   width: 300px;
   z-index: 100;
+  min-height: 250px;
 }
 
 .ad-in-content {
   max-width: 970px;
   margin: 40px auto;
   text-align: center;
+  min-height: 90px;
 }
 
 .ad-footer {
   max-width: 728px;
   margin: 40px auto;
   text-align: center;
-}
-
-.ad-placeholder {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 8px;
-  padding: 20px;
-  color: white;
   min-height: 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: transform 0.2s;
 }
 
-.ad-placeholder:hover {
-  transform: scale(1.02);
-}
-
-.ad-placeholder-square {
+/* 广告加载中占位 */
+.adsbygoogle {
+  display: block;
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   border-radius: 8px;
-  padding: 20px;
+  min-height: 90px;
+  position: relative;
+}
+
+.adsbygoogle::before {
+  content: '广告加载中...';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  width: 300px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.ad-placeholder-square:hover {
-  transform: scale(1.02);
-}
-
-.ad-label {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 4px 12px;
-  border-radius: 4px;
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
-.ad-contact {
   font-size: 14px;
-  margin-top: 8px;
-  opacity: 0.8;
 }
 
 /* 移动端隐藏侧边栏广告 */
@@ -136,15 +129,6 @@
   .ad-in-content {
     max-width: 100%;
     margin: 10px auto;
-  }
-
-  .ad-placeholder {
-    min-height: 50px;
-    padding: 10px;
-  }
-
-  .ad-placeholder p {
-    font-size: 12px;
   }
 }
 </style>

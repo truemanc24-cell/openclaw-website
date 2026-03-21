@@ -137,36 +137,15 @@ ${question}
 请回答：`;
 
   try {
-    const response = await fetch('https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${API_KEY}`
-      },
-      body: JSON.stringify({
-        model: 'qwen3.5-plus',
-        messages: [
-          {
-            role: 'system',
-            content: '你是 OpenClaw 网站的智能客服助手，专门帮助用户解答关于 OpenClaw 使用的问题。'
-          },
-          {
-            role: 'user',
-            content: prompt
-          }
-        ],
-        max_tokens: 500,
-        temperature: 0.7
-      })
+    // 使用 OpenClaw 内置的模型调用（通过 exec 调用 openclaw 命令）
+    const { execSync } = require('child_process');
+    
+    const result = execSync(`openclaw ask "请根据以下内容回答用户问题：\n\n${context}\n\n问题：${query}" --model bailian/qwen3.5-plus --max-tokens 500`, {
+      encoding: 'utf-8',
+      timeout: 10000
     });
     
-    const data = await response.json();
-    
-    if (data.choices && data.choices[0]) {
-      return data.choices[0].message.content;
-    } else {
-      throw new Error('API 返回格式异常');
-    }
+    return result.trim();
   } catch (error) {
     console.error('❌ 调用大模型失败:', error.message);
     return null;
