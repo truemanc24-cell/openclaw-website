@@ -216,11 +216,8 @@ const sendMessage = async () => {
   
   scrollToBottom()
   
-  // 模拟搜索延迟
-  await new Promise(resolve => setTimeout(resolve, 1500))
-  
-  // 搜索匹配的答案
-  const matched = searchKnowledgeBase(text)
+  // 调用客服 API（智能检索）
+  const matched = await searchKnowledgeBase(text)
   
   isSearching.value = false
   
@@ -230,29 +227,56 @@ const sendMessage = async () => {
   scrollToBottom()
 }
 
-const searchKnowledgeBase = (query) => {
-  // 简单关键词匹配（实际应该用全文搜索）
-  const queryLower = query.toLowerCase()
+const searchKnowledgeBase = async (query) => {
+  // 调用客服 API
+  const API_URL = 'http://localhost:3456/api/customer-service'
   
-  for (const kb of knowledgeBase) {
-    if (kb.keywords.some(k => queryLower.includes(k.toLowerCase()))) {
-      return {
-        type: 'bot',
-        text: kb.answer,
-        results: kb.results
+  try {
+    const response = await fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ question: query })
+    })
+    
+    if (!response.ok) {
+      throw new Error('API 请求失败')
+    }
+    
+    const data = await response.json()
+    
+    return {
+      type: 'bot',
+      text: data.answer || '抱歉，回答生成失败',
+      results: data.results || []
+    }
+  } catch (error) {
+    console.error('客服 API 调用失败:', error)
+    
+    // 降级到本地关键词匹配
+    const queryLower = query.toLowerCase()
+    
+    for (const kb of knowledgeBase) {
+      if (kb.keywords.some(k => queryLower.includes(k.toLowerCase()))) {
+        return {
+          type: 'bot',
+          text: kb.answer,
+          results: kb.results
+        }
       }
     }
-  }
-  
-  // 未找到匹配
-  return {
-    type: 'bot',
-    text: '抱歉，我暂时没有找到相关的内容。你可以：\n\n1. 换个问法试试\n2. 查看完整文档\n3. 提交 GitHub Issue\n4. 加入 Discord 社区求助',
-    results: [
-      { title: '完整文档', link: '/guide/introduction.html' },
-      { title: '常见问题', link: '/about.html' },
-      { title: 'GitHub Issues', link: 'https://github.com/openclaw/openclaw/issues' }
-    ]
+    
+    // 未找到匹配
+    return {
+      type: 'bot',
+      text: '抱歉，我暂时没有找到相关的内容。你可以：\n\n1. 换个问法试试\n2. 查看完整文档\n3. 提交 GitHub Issue\n4. 加入 Discord 社区求助',
+      results: [
+        { title: '完整文档', link: '/guide/introduction.html' },
+        { title: '常见问题', link: '/about.html' },
+        { title: 'GitHub Issues', link: 'https://github.com/openclaw/openclaw/issues' }
+      ]
+    }
   }
 }
 
