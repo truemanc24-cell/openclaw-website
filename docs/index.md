@@ -21,9 +21,9 @@ features:
   - title: 🚀 快速上手
     details: 从零开始，3 分钟完成安装配置，立即体验 AI 助手的强大能力
     link: /start/getting-started
-  - title: 📖 详细教程
-    details: 循序渐进的中文教程，从入门到精通，每一步都有详细指导
-    link: /tutorials/00-introduction
+  - title: 📖 完整教程
+    details: 系统化学习路径，从入门到精通，30+ 篇教程涵盖所有功能
+    link: /tutorials/
   - title: 🤖 多 Agent 协作
     details: 配置多个专业 Agent 协同工作，每个 Agent 都有独特的技能和职责
     link: /guide/introduction

@@ -18,15 +18,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '指南',
+        text: '📖 完整教程',
         items: [
-          { text: '介绍', link: '/guide/introduction' },
-          { text: '快速开始', link: '/guide/getting-started' },
-          { text: '配置', link: '/guide/configuration' }
+          { text: '📋 教程索引', link: '/tutorials/' },
+          { text: '⚡ 快速开始', link: '/start/getting-started' },
+          { text: '🤖 什么是 OpenClaw', link: '/tutorials/00-introduction' },
+          { text: '📥 安装指南', link: '/tutorials/02-installation' },
+          { text: '⚙️ 配置指南', link: '/tutorials/03-configuration' },
+          { text: '💬 WhatsApp', link: '/tutorials/04-whatsapp' },
+          { text: '📱 Telegram', link: '/tutorials/05-telegram' }
         ]
       },
       {
-        text: '技能市场',
+        text: '🛠️ 技能市场',
         items: [
           { text: '📋 技能列表', link: '/skills/' },
           { text: '📄 Feishu 文档', link: '/skills/feishu-doc/' },
@@ -37,6 +41,17 @@ export default defineConfig({
           { text: '📄 PDF 编辑', link: '/skills/nano-pdf/' },
           { text: '🧠 自我改进', link: '/skills/self-improving-agent/' },
           { text: '💡 技能推荐', link: '/skills/skill-vetter/' }
+        ]
+      },
+      {
+        text: '📚 核心概念',
+        items: [
+          { text: '架构', link: '/concepts/architecture' },
+          { text: 'Agent', link: '/concepts/agent' },
+          { text: '会话', link: '/concepts/session' },
+          { text: '记忆', link: '/concepts/memory' },
+          { text: '模型', link: '/concepts/models' },
+          { text: '消息', link: '/concepts/messages' }
         ]
       }
     ],
