@@ -30,9 +30,9 @@ features:
   - title: 🛠️ 技能市场
     details: 从 ClawHub 安装技能，扩展无限可能，分享使用经验
     link: /skills/
-  - title: 💬 智能客服
-    details: 遇到问题？查看常见问题解答
-    link: /about
+  - title: 📰 AI 新闻
+    details: 每日 AI 领域最新动态，热点话题、行业趋势、重要事件一网打尽
+    link: /news/
   - title: ❓ 常见问题
     details: 查看关于页面了解更多
     link: /about
@@ -60,18 +60,15 @@ features:
 <!-- 顶部广告 -->
 <AdUnit />
 
-## 💬 在线客服
+## 📰 AI 新闻日报
 
-**已上线**：点击右下角 💬 按钮，快速联系客服！
+**每日更新**：每天上午 9 点自动推送最新 AI 领域动态
 
-- ✅ 文档链接：快速找到解决方案
-- ✅ GitHub Issue：提交问题反馈
-- ✅ Discord 社区：加入讨论
+- 🔥 **10 条最新新闻** - 深度求索、OpenAI、NVIDIA 等大厂动态
+- 📊 **行业趋势分析** - 热点话题、技术方向、重要事件解读
+- 📅 **历史档案** - 保存最近 30 天重要新闻
 
-**更多联系方式**：
-- 飞书：通过飞书机器人
-- GitHub：[提交 Issue](https://github.com/openclaw/openclaw/issues)
-- Discord：[加入社区](https://discord.gg/clawd)
+**立即查看**: [AI 新闻首页](/news/) | [历史档案](/news/archive.html)
 
 ---
 
