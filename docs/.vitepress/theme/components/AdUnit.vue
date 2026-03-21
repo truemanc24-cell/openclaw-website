@@ -5,7 +5,7 @@
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-8650398521051691"
-           data-ad-slot="TOP_BANNER_SLOT"
+           data-ad-slot="1234567890"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
     </div>
@@ -15,7 +15,7 @@
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-8650398521051691"
-           data-ad-slot="SIDEBAR_SLOT"
+           data-ad-slot="2345678901"
            data-ad-format="auto"
            data-full-width-responsive="false"></ins>
     </div>
@@ -25,7 +25,7 @@
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-8650398521051691"
-           data-ad-slot="IN_CONTENT_SLOT"
+           data-ad-slot="3456789012"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
     </div>
@@ -35,7 +35,7 @@
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-8650398521051691"
-           data-ad-slot="FOOTER_SLOT"
+           data-ad-slot="4567890123"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
     </div>
@@ -53,11 +53,14 @@ onMounted(() => {
     if (typeof window.adsbygoogle !== 'undefined') {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({})
+        console.log('✅ AdSense 广告已推送')
       } catch (e) {
-        console.warn('AdSense 加载失败:', e)
+        console.warn('AdSense 推送失败:', e)
       }
+    } else {
+      console.warn('⚠️ AdSense 脚本未加载')
     }
-  }, 1000)
+  }, 2000)
 })
 </script>
 
@@ -97,22 +100,26 @@ onMounted(() => {
 }
 
 /* 广告加载中占位 */
-.adsbygoogle {
-  display: block;
+.adsbygoogle[data-ad-status="unfilled"] {
   background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
   border-radius: 8px;
-  min-height: 90px;
   position: relative;
+  min-height: 90px;
 }
 
-.adsbygoogle::before {
-  content: '广告加载中...';
+.adsbygoogle[data-ad-status="unfilled"]::before {
+  content: '广告位（审核通过后显示广告）';
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 14px;
+  text-align: center;
+}
+
+.adsbygoogle[data-ad-status="filled"] {
+  background: transparent;
 }
 
 /* 移动端隐藏侧边栏广告 */
