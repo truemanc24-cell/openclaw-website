@@ -26,26 +26,19 @@ NEWS_DATE=$(basename "$LATEST_NEWS" | sed 's/ai-news-\(.*\)\.md/\1/')
 echo "📅 新闻日期：$NEWS_DATE"
 
 # 更新 index.md
-cat > "$NEWS_DIR/index.md" << 'EOF'
+cat > "$NEWS_DIR/index.md" << EOF
 # 📰 AI 新闻日报
 
-**最后更新**: 
-EOF
-
-echo "$NEWS_DATE" >> "$NEWS_DIR/index.md"
-
-cat >> "$NEWS_DIR/index.md" << 'EOF'
+**最后更新**: $NEWS_DATE
 
 ---
 
 ## 🔥 今日要闻
 
-EOF
+_新闻内容来自每日推送_
 
-# 提取新闻内容（简单处理，实际应该解析 markdown）
-echo "_新闻内容来自每日推送_" >> "$NEWS_DIR/index.md"
-echo "" >> "$NEWS_DIR/index.md"
-echo "[查看历史新闻档案](/news/archive)" >> "$NEWS_DIR/index.md"
+[查看历史新闻档案](/news/archive)
+EOF
 
 # 更新 archive.md - 添加新条目
 TEMP_FILE=$(mktemp)
