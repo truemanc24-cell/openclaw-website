@@ -1,3 +1,18 @@
+---
+title: 多 Agent 配置实战 - 30 分钟搭建协作系统 | OpenClaw 教程
+description: 学完这个教程，你将能够配置多 Agent 协作系统。包含角色分工、通信机制、任务分配实战示例。复制配置模板，30 分钟完成搭建，附常见问题解答。
+keywords:
+  - 多 Agent 配置
+  - Agent 协作
+  - OpenClaw 教程
+  - AI 助手配置
+  - 任务分配
+  - Agent 路由
+lastUpdated: 2026-03-24
+contributors:
+  - Trueman
+---
+
 # 多 Agent 配置实战：一人掌控多个 AI 助手
 
 > 📅 更新时间：2026-03-22  
@@ -551,3 +566,45 @@ openclaw logs | grep -i error
 ---
 
 *[配图：多 Agent 架构示意图 - 展示一个 Gateway 连接多个 Agent，每个 Agent 有独立的工作空间和渠道账号]*
+
+---
+
+## 结构化数据（SEO）
+
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "多 Agent 配置实战 - 30 分钟搭建协作系统",
+  "description": "学完这个教程，你将能够配置多 Agent 协作系统。包含角色分工、通信机制、任务分配实战示例。",
+  "image": "https://opc-web-five.vercel.app/images/multi-agent-config.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Trueman",
+    "url": "https://opc-web-five.vercel.app/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "OpenClaw 中文技术网",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://opc-web-five.vercel.app/logo.png"
+    }
+  },
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/multi-agent-setup"
+  },
+  "articleSection": "教程",
+  "keywords": ["多 Agent 配置", "Agent 协作", "OpenClaw 教程", "AI 助手"],
+  "wordCount": "3500",
+  "timeRequired": "PT30M",
+  "difficulty": "Intermediate",
+  "educationalLevel": "Intermediate",
+  "learningResourceType": "Tutorial"
+}
+</script>
+-->

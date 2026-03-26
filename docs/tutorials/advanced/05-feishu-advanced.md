@@ -1,3 +1,18 @@
+---
+title: 飞书机器人深度配置 - 打造企业级智能助手 | OpenClaw 教程
+description: 学完这个教程，你将能够配置企业级飞书机器人。包含权限管理、事件订阅、消息格式、应用发布全流程。20 分钟掌握企业集成，附完整配置模板。
+keywords:
+  - 飞书机器人
+  - 企业级配置
+  - OpenClaw 教程
+  - 飞书集成
+  - 事件订阅
+  - 智能客服
+lastUpdated: 2026-03-24
+contributors:
+  - Trueman
+---
+
 # 飞书机器人深度配置：打造企业级智能助手
 
 > 📅 更新时间：2026-03-22  
@@ -786,3 +801,45 @@ openclaw gateway remote enable
 *[配图：飞书开放平台配置界面]*
 *[配图：卡片消息示例]*
 *[配图：企业应用发布流程]*
+
+---
+
+## 结构化数据（SEO）
+
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "飞书机器人深度配置 - 打造企业级智能助手",
+  "description": "学完这个教程，你将能够配置企业级飞书机器人。包含权限管理、事件订阅、消息格式、应用发布全流程。",
+  "image": "https://opc-web-five.vercel.app/images/feishu-advanced.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Trueman",
+    "url": "https://opc-web-five.vercel.app/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "OpenClaw 中文技术网",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://opc-web-five.vercel.app/logo.png"
+    }
+  },
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/feishu-advanced"
+  },
+  "articleSection": "教程",
+  "keywords": ["飞书机器人", "企业级配置", "飞书集成", "智能客服"],
+  "wordCount": "5000",
+  "timeRequired": "PT20M",
+  "difficulty": "Intermediate",
+  "educationalLevel": "Intermediate",
+  "learningResourceType": "Tutorial"
+}
+</script>
+-->

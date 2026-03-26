@@ -1,3 +1,18 @@
+---
+title: 浏览器自动化教程 - 用 OpenClaw 控制浏览器完成自动化任务
+description: 学完这个教程，你将能够使用 OpenClaw 控制浏览器完成自动化任务。包含浏览器配置、网页操作、截图录制实战示例。18 分钟快速上手，附完整代码示例。
+keywords:
+  - 浏览器自动化
+  - OpenClaw 教程
+  - 网页控制
+  - 自动化任务
+  - 浏览器控制
+  - RPA
+lastUpdated: 2026-03-24
+contributors:
+  - Trueman
+---
+
 # 浏览器自动化：用 OpenClaw 控制你的浏览器
 
 > 📅 更新时间：2026-03-22  
@@ -680,3 +695,45 @@ chmod +x price-check.sh
 *[配图：浏览器控制界面 - 展示操作界面]*
 *[配图：自动化流程图 - 展示自动搜索流程]*
 *[配图：比价结果示例 - 展示多网站比价截图]*
+
+---
+
+## 结构化数据（SEO）
+
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "浏览器自动化教程 - 用 OpenClaw 控制浏览器",
+  "description": "学完这个教程，你将能够使用 OpenClaw 控制浏览器完成自动化任务。包含浏览器配置、网页操作、截图录制实战示例。",
+  "image": "https://opc-web-five.vercel.app/images/browser-automation.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Trueman",
+    "url": "https://opc-web-five.vercel.app/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "OpenClaw 中文技术网",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://opc-web-five.vercel.app/logo.png"
+    }
+  },
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/browser-automation"
+  },
+  "articleSection": "教程",
+  "keywords": ["浏览器自动化", "网页控制", "RPA", "自动化任务"],
+  "wordCount": "4500",
+  "timeRequired": "PT18M",
+  "difficulty": "Intermediate",
+  "educationalLevel": "Intermediate",
+  "learningResourceType": "Tutorial"
+}
+</script>
+-->

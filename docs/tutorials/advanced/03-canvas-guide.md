@@ -1,3 +1,18 @@
+---
+title: Canvas 使用指南 - 实时渲染与交互界面开发 | OpenClaw 教程
+description: 学完这个教程，你将能够使用 Canvas 创建实时渲染界面。包含 Canvas 配置、网页渲染、图表展示实战示例。15 分钟快速上手，附完整代码示例。
+keywords:
+  - Canvas 使用指南
+  - 实时渲染
+  - 交互界面
+  - OpenClaw 教程
+  - 网页渲染
+  - 数据可视化
+lastUpdated: 2026-03-24
+contributors:
+  - Trueman
+---
+
 # Canvas 使用指南：实时渲染与交互的艺术
 
 > 📅 更新时间：2026-03-22  
@@ -773,3 +788,45 @@ Canvas 是 OpenClaw 最强大的可视化能力：
 *[配图：Canvas 界面截图 - 展示实时渲染效果]*
 *[配图：数据仪表盘示例 - 展示图表渲染]*
 *[配图：代码编辑器示例 - 展示交互功能]*
+
+---
+
+## 结构化数据（SEO）
+
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Canvas 使用指南 - 实时渲染与交互界面开发",
+  "description": "学完这个教程，你将能够使用 Canvas 创建实时渲染界面。包含 Canvas 配置、网页渲染、图表展示实战示例。",
+  "image": "https://opc-web-five.vercel.app/images/canvas-guide.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Trueman",
+    "url": "https://opc-web-five.vercel.app/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "OpenClaw 中文技术网",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://opc-web-five.vercel.app/logo.png"
+    }
+  },
+  "datePublished": "2026-03-22",
+  "dateModified": "2026-03-24",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/canvas-guide"
+  },
+  "articleSection": "教程",
+  "keywords": ["Canvas 使用指南", "实时渲染", "交互界面", "数据可视化"],
+  "wordCount": "5500",
+  "timeRequired": "PT15M",
+  "difficulty": "Intermediate",
+  "educationalLevel": "Intermediate",
+  "learningResourceType": "Tutorial"
+}
+</script>
+-->
