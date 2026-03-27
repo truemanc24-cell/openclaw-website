@@ -105,7 +105,7 @@
 
 - **GitHub**: https://github.com/openclaw/openclaw/issues
 - **Discord**: https://discord.gg/clawd
-- **电子邮件**: [待定]
+- **电子邮件**: openclaw.adsense@gmail.com
 
 ---
 
