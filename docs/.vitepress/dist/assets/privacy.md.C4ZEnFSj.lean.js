@@ -1,0 +1,1 @@
+import{_ as r,o as l,c as e,a2 as o}from"./chunks/framework.BRk9mohw.js";const p=JSON.parse('{"title":"隐私政策","description":"","frontmatter":{},"headers":[],"relativePath":"privacy.md","filePath":"privacy.md"}'),t={name:"privacy.md"};function i(n,a,s,h,d,c){return l(),e("div",null,[...a[0]||(a[0]=[o("",55)])])}const g=r(t,[["render",i]]);export{p as __pageData,g as default};

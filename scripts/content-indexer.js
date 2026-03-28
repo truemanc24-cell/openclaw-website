@@ -78,10 +78,12 @@ function extractDocumentInfo(filePath, relativePath, category) {
     .slice(0, 20)
     .map(([word]) => word);
   
+  const urlPath = '/' + relativePath.replace('.md', '.html');
+  
   return {
     title,
     path: relativePath,
-    url,
+    url: urlPath,
     category,
     content: content.substring(0, 3000), // 保存前 3000 字
     summary,

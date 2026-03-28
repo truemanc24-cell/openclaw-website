@@ -707,25 +707,25 @@ chmod +x price-check.sh
   "@type": "Article",
   "headline": "浏览器自动化教程 - 用 OpenClaw 控制浏览器",
   "description": "学完这个教程，你将能够使用 OpenClaw 控制浏览器完成自动化任务。包含浏览器配置、网页操作、截图录制实战示例。",
-  "image": "https://opc-web-five.vercel.app/images/browser-automation.jpg",
+  "image": "https://trueworld-web.vercel.app/images/browser-automation.jpg",
   "author": {
     "@type": "Person",
     "name": "Trueman",
-    "url": "https://opc-web-five.vercel.app/about"
+    "url": "https://trueworld-web.vercel.app/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "OpenClaw 中文技术网",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://opc-web-five.vercel.app/logo.png"
+      "url": "https://trueworld-web.vercel.app/logo.png"
     }
   },
   "datePublished": "2026-03-22",
   "dateModified": "2026-03-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/browser-automation"
+    "@id": "https://trueworld-web.vercel.app/tutorials/advanced/browser-automation"
   },
   "articleSection": "教程",
   "keywords": ["浏览器自动化", "网页控制", "RPA", "自动化任务"],

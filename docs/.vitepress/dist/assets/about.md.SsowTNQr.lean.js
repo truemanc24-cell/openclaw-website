@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as l,a2 as r}from"./chunks/framework.BRk9mohw.js";const b=JSON.parse('{"title":"关于 OpenClaw","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),i={name:"about.md"};function o(n,t,d,h,s,u){return e(),l("div",null,[...t[0]||(t[0]=[r("",23)])])}const p=a(i,[["render",o]]);export{b as __pageData,p as default};

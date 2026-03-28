@@ -7,6 +7,9 @@ import TechLayout from './components/TechLayout.vue'
 import './styles/vars.css'
 import './styles/base.css'
 
+// Google Analytics 4 配置
+const GA4_MEASUREMENT_ID = 'G-SDJFLSFFWD' // ✅ Trueworld Labs 真实世界实验室
+
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
@@ -22,6 +25,27 @@ export default {
     app.component('TechLayout', TechLayout)
   },
   setup() {
-    // 可以在这里添加全局逻辑
+    // Google Analytics 4 初始化
+    if (typeof window !== 'undefined' && GA4_MEASUREMENT_ID && GA4_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
+      // 加载 GA4 脚本
+      const script = document.createElement('script')
+      script.async = true
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`
+      document.head.appendChild(script)
+
+      // 初始化 gtag
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        window.dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', GA4_MEASUREMENT_ID, {
+        page_path: window.location.pathname
+      })
+
+      console.log('[GA4] Initialized with ID:', GA4_MEASUREMENT_ID)
+    } else {
+      console.warn('[GA4] Measurement ID not configured. Please update GA4_MEASUREMENT_ID in index.js')
+    }
   }
 }

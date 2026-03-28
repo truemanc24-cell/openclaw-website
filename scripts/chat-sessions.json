@@ -1,0 +1,73 @@
+{
+  "session_1774632677928_ziy1z5nt0": {
+    "id": "session_1774632677928_ziy1z5nt0",
+    "createdAt": "2026-03-27T17:31:17.928Z",
+    "messages": [
+      {
+        "role": "user",
+        "content": "如何安装 OpenClaw？",
+        "timestamp": "2026-03-27T17:31:27.149Z"
+      },
+      {
+        "role": "assistant",
+        "content": "## 📦 OpenClaw 安装指南\n\n### ⚡ 快速安装\n\n```bash\n# 一键安装脚本（macOS/Linux）\ncurl -fsSL https://openclaw.ai/install.sh | bash\n```\n\n---\n\n### 📋 安装前要求\n\n| 项目 | 要求 |\n|------|------|\n| **Node.js** | v24 推荐 或 v22.16+ LTS |\n| **操作系统** | macOS 12+ / Linux Ubuntu 20+ / Windows 10/11 (WSL2 推荐) |\n| **AI API Key** | 任意 AI 提供商 |\n| **时间** | 约 5 分钟 |\n\n---\n\n### 💻 硬件配置\n\n| 组件 | 最低要求 | 推荐配置 |\n|------|----------|----------|\n| **CPU** | Intel i5 / Apple M1 | M2 / i7+ |\n| **内存** | 8 GB | 16 GB+ |\n| **存储** | 10 GB 可用空间 | 50 GB+ |\n\n---\n\n### 🔧 检查你的环境\n\n```bash\n# 检查 Node.js 版本\nnode --version\n\n# 检查存储 (macOS)\ndf -h ~\n\n# 检查内存 (Linux)\nfree -h\n```\n\n---\n\n### 📚 完整教程\n\n详细安装步骤：[环境准备和安装](/tutorials/01-05-intro/02-installation.html)\n\n---\n\n**需要我帮你检查当前环境是否满足安装要求吗？**",
+        "timestamp": "2026-03-27T17:31:27.149Z",
+        "results": [
+          {
+            "title": "浏览器自动化：用 OpenClaw 控制你的浏览器",
+            "link": "/tutorials/advanced/04-browser-automation.html"
+          },
+          {
+            "title": "OpenClaw 🦞",
+            "link": "/tutorials/00-introduction.html"
+          },
+          {
+            "title": "OpenClaw P0 入门教程 - 完成报告",
+            "link": "/tutorials/01-05-intro/00-COMPLETION-REPORT.html"
+          },
+          {
+            "title": "OpenClaw 是什么？5 分钟理解 AI 网关的核心价值",
+            "link": "/tutorials/01-05-intro/01-what-is-openclaw.html"
+          },
+          {
+            "title": "环境准备和安装 - 从零开始部署 OpenClaw",
+            "link": "/tutorials/01-05-intro/02-installation.html"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "那多 Agent 怎么配置？",
+        "timestamp": "2026-03-27T17:31:58.523Z"
+      },
+      {
+        "role": "assistant",
+        "content": "## 🤖 多 Agent 配置指南\n\n### 📖 完整教程\n\n**多 Agent 配置实战**：[查看详细教程](/tutorials/advanced/01-multi-agent-setup.html)\n\n---\n\n### 🎯 核心优势\n\n| 优势 | 说明 |\n|------|------|\n| **专业分工** | 每个 Agent 只专注一类任务 |\n| **数据隔离** | 不同 Agent 的对话历史完全独立 |\n| **个性定制** | 每个 Agent 可以有不同的性格设定 |\n| **资源优化** | 可以为不同 Agent 分配不同的模型 |\n\n---\n\n### 💡 典型使用场景\n\n**场景一：工作与生活分开**\n- `work` Agent：专业 Coding 助手，负责技术任务\n- `life` Agent：生活助手，帮你安排日程、查找餐厅\n\n**场景二：不同技能组合**\n- `coder` Agent：擅长代码审查和重构\n- `writer` Agent：擅长文案创作和编辑\n\n---\n\n### ⚡ 快速开始\n\n```bash\n# 1. 在 openclaw.json 中配置多个 agent\n# 2. 为每个 agent 设置独立的工作目录\n# 3. 配置不同的角色设定和模型\n# 4. 启动 Gateway，多个 agent 同时运行\n```\n\n---\n\n### 📚 详细步骤\n\n完整配置步骤（含配置模板）：[多 Agent 配置实战教程](/tutorials/advanced/01-multi-agent-setup.html)\n\n**阅读时长**: 15 分钟  \n**难度**: 进阶\n\n---\n\n**需要我帮你解释某个具体配置步骤吗？**",
+        "timestamp": "2026-03-27T17:31:58.523Z",
+        "results": [
+          {
+            "title": "多 Agent 配置实战：一人掌控多个 AI 助手",
+            "link": "/tutorials/advanced/01-multi-agent-setup.html"
+          },
+          {
+            "title": "Agent Browser",
+            "link": "/skills/clawhub/agent-browser/index.html"
+          },
+          {
+            "title": "Self-Improving + Proactive Agent",
+            "link": "/skills/clawhub/self-improving/index.html"
+          },
+          {
+            "title": "Self-Improving Agent",
+            "link": "/skills/clawhub/self-improving-agent/index.html"
+          },
+          {
+            "title": "OpenClaw 🦞",
+            "link": "/tutorials/00-introduction.html"
+          }
+        ]
+      }
+    ],
+    "lastActiveAt": "2026-03-27T17:31:58.523Z"
+  }
+}

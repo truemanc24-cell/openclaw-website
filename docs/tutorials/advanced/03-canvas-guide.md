@@ -800,25 +800,25 @@ Canvas 是 OpenClaw 最强大的可视化能力：
   "@type": "Article",
   "headline": "Canvas 使用指南 - 实时渲染与交互界面开发",
   "description": "学完这个教程，你将能够使用 Canvas 创建实时渲染界面。包含 Canvas 配置、网页渲染、图表展示实战示例。",
-  "image": "https://opc-web-five.vercel.app/images/canvas-guide.jpg",
+  "image": "https://trueworld-web.vercel.app/images/canvas-guide.jpg",
   "author": {
     "@type": "Person",
     "name": "Trueman",
-    "url": "https://opc-web-five.vercel.app/about"
+    "url": "https://trueworld-web.vercel.app/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "OpenClaw 中文技术网",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://opc-web-five.vercel.app/logo.png"
+      "url": "https://trueworld-web.vercel.app/logo.png"
     }
   },
   "datePublished": "2026-03-22",
   "dateModified": "2026-03-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/canvas-guide"
+    "@id": "https://trueworld-web.vercel.app/tutorials/advanced/canvas-guide"
   },
   "articleSection": "教程",
   "keywords": ["Canvas 使用指南", "实时渲染", "交互界面", "数据可视化"],

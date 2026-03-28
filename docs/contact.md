@@ -1,6 +1,6 @@
 # 联系我们
 
-**OpenClaw 中文网**
+**Trueworld Labs 真实世界实验室**
 
 ---
 
@@ -19,8 +19,8 @@
 
 ## 📍 项目信息
 
-- **项目名称**: OpenClaw 中文网
-- **网站 URL**: https://opc-web-five.vercel.app
+- **项目名称**: Trueworld Labs 真实世界实验室
+- **网站 URL**: https://trueworld-web.vercel.app
 - **主要语言**: 中文（简体）
 - **内容分类**: 技术/软件/人工智能/开发者工具
 

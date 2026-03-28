@@ -907,25 +907,25 @@ main();
   "@type": "Article",
   "headline": "OpenClaw 技能开发教程 - 从零创建你的第一个技能",
   "description": "学完这个教程，你将能够独立开发 OpenClaw 技能。包含技能结构、API 调用、测试部署全流程。",
-  "image": "https://opc-web-five.vercel.app/images/skill-development.jpg",
+  "image": "https://trueworld-web.vercel.app/images/skill-development.jpg",
   "author": {
     "@type": "Person",
     "name": "Trueman",
-    "url": "https://opc-web-five.vercel.app/about"
+    "url": "https://trueworld-web.vercel.app/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "OpenClaw 中文技术网",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://opc-web-five.vercel.app/logo.png"
+      "url": "https://trueworld-web.vercel.app/logo.png"
     }
   },
   "datePublished": "2026-03-22",
   "dateModified": "2026-03-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/skill-development"
+    "@id": "https://trueworld-web.vercel.app/tutorials/advanced/skill-development"
   },
   "articleSection": "教程",
   "keywords": ["OpenClaw 技能开发", "技能创建", "Agent 技能", "API 开发"],

@@ -813,25 +813,25 @@ openclaw gateway remote enable
   "@type": "Article",
   "headline": "飞书机器人深度配置 - 打造企业级智能助手",
   "description": "学完这个教程，你将能够配置企业级飞书机器人。包含权限管理、事件订阅、消息格式、应用发布全流程。",
-  "image": "https://opc-web-five.vercel.app/images/feishu-advanced.jpg",
+  "image": "https://trueworld-web.vercel.app/images/feishu-advanced.jpg",
   "author": {
     "@type": "Person",
     "name": "Trueman",
-    "url": "https://opc-web-five.vercel.app/about"
+    "url": "https://trueworld-web.vercel.app/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "OpenClaw 中文技术网",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://opc-web-five.vercel.app/logo.png"
+      "url": "https://trueworld-web.vercel.app/logo.png"
     }
   },
   "datePublished": "2026-03-22",
   "dateModified": "2026-03-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/feishu-advanced"
+    "@id": "https://trueworld-web.vercel.app/tutorials/advanced/feishu-advanced"
   },
   "articleSection": "教程",
   "keywords": ["飞书机器人", "企业级配置", "飞书集成", "智能客服"],

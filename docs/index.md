@@ -1,9 +1,16 @@
 ---
 layout: home
+title: Trueworld Labs 真实世界实验室 - AI 助手平台 | 3 分钟快速开始
+description: Trueworld Labs 是强大的个人 AI 助手平台，支持多渠道集成 (WhatsApp/Telegram/Discord)、多 Agent 协作、技能市场扩展。开源、自托管、数据可控，3 分钟快速上手。
+keywords: Trueworld Labs,AI 助手，自动化工具，多 Agent 协作，技能市场，自托管 AI,WhatsApp 机器人，Telegram 机器人，AI 自动化
+
 hero:
-  name: OpenClaw 中文网
+  name: Trueworld Labs 真实世界实验室
   text: 你的个人 AI 助手平台
   tagline: 3 分钟快速开始，让你的 AI 助手更智能、更自主
+  image:
+    src: /og-image.png
+    alt: OpenClaw AI 助手平台
   actions:
     - theme: brand
       text: ⚡ 3 分钟快速开始

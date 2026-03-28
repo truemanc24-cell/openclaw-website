@@ -578,25 +578,25 @@ openclaw logs | grep -i error
   "@type": "Article",
   "headline": "多 Agent 配置实战 - 30 分钟搭建协作系统",
   "description": "学完这个教程，你将能够配置多 Agent 协作系统。包含角色分工、通信机制、任务分配实战示例。",
-  "image": "https://opc-web-five.vercel.app/images/multi-agent-config.jpg",
+  "image": "https://trueworld-web.vercel.app/images/multi-agent-config.jpg",
   "author": {
     "@type": "Person",
     "name": "Trueman",
-    "url": "https://opc-web-five.vercel.app/about"
+    "url": "https://trueworld-web.vercel.app/about"
   },
   "publisher": {
     "@type": "Organization",
     "name": "OpenClaw 中文技术网",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://opc-web-five.vercel.app/logo.png"
+      "url": "https://trueworld-web.vercel.app/logo.png"
     }
   },
   "datePublished": "2026-03-22",
   "dateModified": "2026-03-24",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://opc-web-five.vercel.app/tutorials/advanced/multi-agent-setup"
+    "@id": "https://trueworld-web.vercel.app/tutorials/advanced/multi-agent-setup"
   },
   "articleSection": "教程",
   "keywords": ["多 Agent 配置", "Agent 协作", "OpenClaw 教程", "AI 助手"],

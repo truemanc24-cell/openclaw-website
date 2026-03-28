@@ -1,8 +1,88 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'OpenClaw',
-  description: 'OpenClaw - 强大的 AI 助手平台',
+  title: 'OpenClaw 中文网 - 你的个人 AI 助手平台',
+  description: '3 分钟快速开始，让你的 AI 助手更智能、更自主。支持多渠道集成、多 Agent 协作、技能市场扩展。开源、自托管、数据可控。',
+  
+  head: [
+    // SEO Meta Tags
+    ['meta', { name: 'keywords', content: 'OpenClaw,AI 助手，自动化工具，多 Agent 协作，技能市场，自托管 AI,WhatsApp 机器人，Telegram 机器人' }],
+    ['meta', { name: 'author', content: 'OpenClaw Team' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['link', { rel: 'canonical', href: 'https://openclaw.com/' }],
+    
+    // Open Graph / Facebook
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://openclaw.com/' }],
+    ['meta', { property: 'og:title', content: 'OpenClaw 中文网 - 你的个人 AI 助手平台' }],
+    ['meta', { property: 'og:description', content: '3 分钟快速开始，让你的 AI 助手更智能、更自主。支持多渠道集成、多 Agent 协作、技能市场扩展。' }],
+    ['meta', { property: 'og:image', content: 'https://openclaw.com/og-image.png' }],
+    
+    // Twitter
+    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { property: 'twitter:url', content: 'https://openclaw.com/' }],
+    ['meta', { property: 'twitter:title', content: 'OpenClaw 中文网 - 你的个人 AI 助手平台' }],
+    ['meta', { property: 'twitter:description', content: '3 分钟快速开始，让你的 AI 助手更智能、更自主。' }],
+    ['meta', { property: 'twitter:image', content: 'https://openclaw.com/og-image.png' }],
+    
+    // Schema.org 结构化数据 (JSON-LD)
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "OpenClaw",
+      "alternateName": "OpenClaw 中文网",
+      "url": "https://openclaw.com",
+      "description": "OpenClaw 是一个强大的个人 AI 助手平台，支持多渠道集成、多 Agent 协作、技能市场扩展。",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "macOS, Linux, Windows",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "OpenClaw Team",
+        "url": "https://github.com/openclaw/openclaw"
+      },
+      "keywords": "AI 助手，自动化工具，多 Agent 协作，技能市场，自托管 AI",
+      "softwareVersion": "1.0.0",
+      "datePublished": "2026-03-12",
+      "dateModified": "2026-03-28"
+    })],
+    
+    // Organization 结构化数据
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "OpenClaw",
+      "url": "https://openclaw.com",
+      "logo": "https://openclaw.com/logo.png",
+      "sameAs": [
+        "https://github.com/openclaw/openclaw",
+        "https://discord.gg/clawd"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "availableLanguage": ["Chinese", "English"]
+      }
+    })],
+    
+    // WebSite 结构化数据
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "OpenClaw 中文网",
+      "url": "https://openclaw.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://openclaw.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "zh-CN"
+    })]
+  ],
   
   ignoreDeadLinks: true,
   
