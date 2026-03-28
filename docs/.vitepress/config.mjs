@@ -5,6 +5,9 @@ export default defineConfig({
   description: '3 分钟快速开始，让你的 AI 助手更智能、更自主。支持多渠道集成、多 Agent 协作、技能市场扩展。开源、自托管、数据可控。',
   
   head: [
+    // Google Search Console 验证
+    ['meta', { name: 'google-site-verification', content: 'OMzLIVQceg8V8fgvymnxOu0R_rE_13MaPjUdZIWx4ek' }],
+    
     // SEO Meta Tags
     ['meta', { name: 'keywords', content: 'OpenClaw,AI 助手，自动化工具，多 Agent 协作，技能市场，自托管 AI,WhatsApp 机器人，Telegram 机器人' }],
     ['meta', { name: 'author', content: 'OpenClaw Team' }],
