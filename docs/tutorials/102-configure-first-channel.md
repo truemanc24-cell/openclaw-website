@@ -54,7 +54,7 @@
    - **App ID**：`cli_xxxxxxxxxxxx`
    - **App Secret**：`xxxxxxxxxxxxxxxx`
 
-![获取凭证](../images/feishu-credentials.png)
+<!-- 图片待添加：获取凭证 -->
 
 > 🔒 **安全提示**：App Secret 敏感信息，不要泄露给他人
 
@@ -66,7 +66,7 @@
    - **Verification Token**：`xxxxxxxxxxxxxxxx`
    - **Encrypt Key**：`xxxxxxxxxxxxxxxx`
 
-![机器人设置](../images/feishu-bot-settings.png)
+<!-- 图片待添加：机器人设置 -->
 
 4. 配置机器人名称和头像
 5. 设置「消息可读」权限
@@ -93,7 +93,7 @@
    - ✅ `im.message.receive_v1` - 接收消息
    - ✅ `im.message.read_v1` - 消息已读（可选）
 
-![事件订阅](../images/feishu-events.png)
+<!-- 图片待添加：事件订阅 -->
 
 5. 点击「保存」
 
