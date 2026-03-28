@@ -93,10 +93,11 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/guide/introduction' },
-      { text: 'AI 新闻', link: '/news/' },
-      { text: '技能', link: '/skills/' },
-      { text: '关于', link: '/about' }
+      { text: '📚 教程', link: '/tutorials/' },
+      { text: '🛠️ 技能', link: '/skills/' },
+      { text: '📰 AI 新闻', link: '/news/' },
+      { text: '🤖 客服', link: '/customer-service-kb' },
+      { text: 'ℹ️ 关于', link: '/about' }
     ],
 
     sidebar: [

@@ -27,9 +27,22 @@ hero:
 features:
   - title: 🚀 快速上手
     details: 从零开始，3 分钟完成安装配置，立即体验 AI 助手的强大能力
-    link: /start/getting-started
+    link: /tutorials/101-quick-start-guide
   - title: 📖 完整教程
-    details: 系统化学习路径，从入门到精通，30+ 篇教程涵盖所有功能
+    details: 系统化学习路径，从入门到精通，涵盖多 Agent 协作、技能开发等核心功能
+    link: /tutorials/
+  - title: 🛠️ 技能市场
+    details: 50+ 个预制技能，一键安装扩展 AI 能力边界
+    link: /skills/
+  - title: 🤖 AI 客服
+    details: 基于真实 Agent 对话，7x24 小时智能解答你的问题
+    link: /customer-service-kb
+  - title: 📰 AI 新闻
+    details: 每日 AI 领域最新动态，热点话题、行业趋势一网打尽
+    link: /news/
+  - title: 💬 社区支持
+    details: GitHub、Discord 多渠道支持，与全球开发者交流
+    link: /about
     link: /tutorials/
   - title: 🤖 多 Agent 协作
     details: 配置多个专业 Agent 协同工作，每个 Agent 都有独特的技能和职责

@@ -21,7 +21,7 @@
     <footer class="tech-footer">
       <div class="footer-content">
         <div class="footer-left">
-          <p class="copyright">© 2026 OpenClaw. All rights reserved.</p>
+          <p class="copyright">© 2026 Trueworld Labs. All rights reserved.</p>
         </div>
         <div class="footer-center">
           <!-- 二维码预留位置 -->
