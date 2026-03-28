@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'OpenClaw 中文网 - 你的个人 AI 助手平台',
-  description: '3 分钟快速开始，让你的 AI 助手更智能、更自主。支持多渠道集成、多 Agent 协作、技能市场扩展。开源、自托管、数据可控。',
+  title: 'Trueworld Labs 真实世界实验室 - AI 助手平台',
+  description: 'Trueworld Labs 是强大的个人 AI 助手平台，支持多渠道集成 (WhatsApp/Telegram/Discord)、多 Agent 协作、技能市场扩展。开源、自托管、数据可控，3 分钟快速上手。',
   
   head: [
     // Google Search Console 验证
