@@ -1,8 +1,8 @@
 ---
-title: archive
-description: archive 页面
+title: AI 新闻档案 - OpenClaw 中文网
+description: 历史 AI 新闻归档，按日期保存最近 30 天重要新闻
 
-### 2026-03-29
+### 2026-03-30
 - 新闻内容已更新
 
 ---
