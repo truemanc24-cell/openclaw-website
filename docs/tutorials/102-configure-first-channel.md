@@ -1,3 +1,8 @@
+---
+title: 102 configure first channel
+description: 102 configure first channel 页面
+---
+
 # 如何配置第一个聊天渠道：让 OpenClaw 连接飞书
 
 > **摘要**：本教程详细讲解如何将 OpenClaw 连接到飞书，创建你的第一个智能机器人。从申请开发者账号到成功对话，全程手把手教学，包含常见问题排查。
@@ -438,3 +443,14 @@ openclaw gateway logs --follow    # 实时日志
 **前置知识**：完成快速开始指南
 
 > 💡 **提示**：遇到问题先查看日志 `openclaw gateway logs`，90% 的问题都能从日志中找到线索。
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/101-quick-start-guide)
+- [频道列表](/channels/)
+- [WhatsApp 配置](/tutorials/04-whatsapp)
+- [Telegram 配置](/tutorials/05-telegram)
+- [飞书配置](/channels/feishu)

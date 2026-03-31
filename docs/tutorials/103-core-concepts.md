@@ -1,3 +1,8 @@
+---
+title: 103 core concepts
+description: 103 core concepts 页面
+---
+
 # OpenClaw 核心概念解析：深入理解 Agent 架构
 
 > **摘要**：本教程深入讲解 OpenClaw 的核心架构设计，包括 Agent 系统、会话模式、记忆系统和技能系统。理解这些概念后，你将能够更高效地配置和使用 OpenClaw，构建强大的 AI 工作流。
@@ -600,3 +605,14 @@ clawhub install <name>           # 安装技能
 **前置知识**：完成教程 1 和教程 2
 
 > 💡 **提示**：理解核心概念后，阅读 `~/.openclaw/agents/main/agent/` 下的配置文件，结合实际配置加深理解。
+
+
+---
+
+## 📚 相关内容
+
+- [Agent 概念](/concepts/agent)
+- [会话管理](/concepts/session)
+- [记忆系统](/concepts/memory)
+- [工具调用](/concepts/agent-loop)
+- [模型提供商](/concepts/model-providers)

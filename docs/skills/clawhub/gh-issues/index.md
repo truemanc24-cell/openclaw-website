@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # GH Issues
 
 **技能名**: `gh-issues`  

@@ -1,7 +1,7 @@
 ---
-名称: tavily-search
-版本: 1.0.4
-描述: 通过 bash 脚本使用 Tavily API 搜索网络。用于查找当前信息、新闻、研究和数据。
+title: tavily search
+description: tavily search 页面
+---
 ---
 
 # Tavily Search 技能

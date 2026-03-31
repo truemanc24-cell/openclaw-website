@@ -1,3 +1,8 @@
+---
+title: auth monitoring
+description: auth monitoring 页面
+---
+
 # 身份验证监控
 
 OpenClaw 通过 `openclaw models status` 暴露 OAuth 过期健康状态。将其用于自动化和告警；脚本是可选的辅助工具，适用于手机工作流。

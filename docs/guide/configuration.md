@@ -1,3 +1,8 @@
+---
+title: configuration
+description: configuration 页面
+---
+
 # 配置指南
 
 ## 核心配置文件

@@ -1,3 +1,8 @@
+---
+title: 02 installation
+description: 02 installation 页面
+---
+
 # 安装指南
 
 > ## 文档索引
@@ -184,3 +189,14 @@ Windows 上，将 `npm prefix -g` 的输出添加到 PATH。
 **翻译完成时间**: 2026-03-15 00:32  
 **来源**: https://docs.openclaw.ai/install  
 **状态**: ✅ 已完成
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/01-quick-start)
+- [配置教程](/tutorials/03-configuration)
+- [Windows 安装](/tutorials/02-installation#windows)
+- [Mac 安装](/tutorials/02-installation#mac)
+- [Linux 安装](/tutorials/02-installation#linux)

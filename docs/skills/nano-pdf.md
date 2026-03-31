@@ -1,7 +1,7 @@
 ---
-名称: nano-pdf
-描述: 使用 nano-pdf CLI 通过自然语言指令编辑 PDF。
-首页: https://pypi.org/project/nano-pdf/
+title: nano pdf
+description: nano pdf 页面
+---
 元数据:
   {
     "openclaw":

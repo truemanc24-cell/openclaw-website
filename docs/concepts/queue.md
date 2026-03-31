@@ -1,3 +1,8 @@
+---
+title: queue
+description: queue 页面
+---
+
 # 命令队列
 
 # 命令队列 (2026-01-16)

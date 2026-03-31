@@ -1,7 +1,7 @@
 ---
-title: 浏览器自动化教程 - 用 OpenClaw 控制浏览器完成自动化任务
-description: 学完这个教程，你将能够使用 OpenClaw 控制浏览器完成自动化任务。包含浏览器配置、网页操作、截图录制实战示例。18 分钟快速上手，附完整代码示例。
-keywords:
+title: 04 browser automation
+description: 04 browser automation 页面
+---
   - 浏览器自动化
   - OpenClaw 教程
   - 网页控制
@@ -737,3 +737,13 @@ chmod +x price-check.sh
 }
 </script>
 -->
+
+---
+
+## 📚 相关内容
+
+- [Canvas 指南](/tutorials/advanced/03-canvas-guide)
+- [浏览器工具](/tools/browser/)
+- [自动化任务](/concepts/features)
+- [技能开发](/skills/)
+- [高级教程](/tutorials/advanced/)

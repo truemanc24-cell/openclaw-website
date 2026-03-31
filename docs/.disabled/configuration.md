@@ -1,7 +1,7 @@
-# 配置
-
-OpenClaw 从 `~/.openclaw/openclaw.json` 读取可选的 <Tooltip tip="JSON5 支持注释和尾随逗号">**JSON5**</Tooltip> 配置。
-
+---
+title: configuration
+description: configuration 页面
+---
 如果文件缺失，OpenClaw 使用安全默认值。添加配置的常见原因：
 
 * 连接渠道并控制谁可以向机器人发送消息

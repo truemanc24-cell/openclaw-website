@@ -1,3 +1,8 @@
+---
+title: bonjour
+description: bonjour 页面
+---
+
 # Bonjour / mDNS 发现
 
 OpenClaw 使用 Bonjour（mDNS / DNS-SD）作为**仅 LAN 便利**来发现活动的网关（WebSocket 端点）。它是尽力而为的，不能替代 SSH 或 Tailnet 连接。

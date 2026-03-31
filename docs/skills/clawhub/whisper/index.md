@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Whisper
 
 **技能名**: `whisper`  

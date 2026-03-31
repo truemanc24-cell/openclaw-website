@@ -1,3 +1,8 @@
+---
+title: features
+description: features 页面
+---
+
 # 功能特性
 
 ## 亮点

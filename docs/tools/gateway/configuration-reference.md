@@ -1,3 +1,8 @@
+---
+title: configuration reference
+description: configuration reference 页面
+---
+
 # 配置参考
 
 这是 OpenClaw 配置的完整参考。配置以 JSON5 格式存储在 `~/.openclaw/openclaw.json` 中。

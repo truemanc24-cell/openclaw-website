@@ -1,3 +1,8 @@
+---
+title: pairing
+description: pairing 页面
+---
+
 # 配对
 
 # 配对

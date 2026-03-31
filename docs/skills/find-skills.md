@@ -1,6 +1,6 @@
 ---
-名称: find-skills
-描述: 当用户询问"如何做 X"、"为 X 找一个技能"、"有能...的技能吗"或表示有兴趣扩展代理能力时，帮助用户发现和安装代理技能。此技能应在用户寻找可能已存在技能的功能时使用。
+title: find skills
+description: find skills 页面
 ---
 
 # Find Skills（查找技能）

@@ -1,7 +1,7 @@
 ---
-name: obsidian
-description: 使用 Obsidian 仓库（纯 Markdown 笔记）并通过 obsidian-cli 进行自动化。
-homepage: https://help.obsidian.md
+title: obsidian
+description: obsidian 页面
+---
 metadata:
   {
     "openclaw":

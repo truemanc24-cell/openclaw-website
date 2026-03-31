@@ -1,3 +1,8 @@
+---
+title: date time
+description: date time 页面
+---
+
 # 日期和时间
 
 OpenClaw 默认为**传输时间戳使用主机本地时间**，**仅在系统提示中使用用户时区**。

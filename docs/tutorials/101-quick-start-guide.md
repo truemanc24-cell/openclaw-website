@@ -1,3 +1,8 @@
+---
+title: 101 quick start guide
+description: 101 quick start guide 页面
+---
+
 # OpenClaw 快速开始指南：10 分钟让你的 AI 助手跑起来
 
 > **摘要**：本教程带你从零开始，在 10 分钟内完成 OpenClaw 的安装、配置和第一次对话。无需编程基础，只需跟着步骤操作，即可拥有属于自己的本地 AI 助手。
@@ -335,3 +340,14 @@ openclaw skills list        # 查看技能
 **前置知识**：无需编程基础
 
 > 💡 **提示**：遇到问题？查看 `openclaw health` 输出，或访问官方文档获取帮助。
+
+
+---
+
+## 📚 相关内容
+
+- [什么是 OpenClaw](/tutorials/00-introduction)
+- [安装指南](/tutorials/02-installation)
+- [配置第一个频道](/tutorials/102-configure-first-channel)
+- [核心概念](/tutorials/103-core-concepts)
+- [故障排查](/tutorials/201-troubleshooting-guide)

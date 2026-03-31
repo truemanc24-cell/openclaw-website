@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Agent Browser
 
 **技能名**: `agent-browser-clawdbot`  

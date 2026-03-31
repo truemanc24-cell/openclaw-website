@@ -1,7 +1,7 @@
 ---
-name: discord
-description: "通过 message 工具进行 Discord 操作（channel=discord）。"
-metadata: { "openclaw": { "emoji": "🎮", "requires": { "config": ["channels.discord.token"] } } }
+title: discord
+description: discord 页面
+---
 allowed-tools: ["message"]
 ---
 

@@ -1,3 +1,8 @@
+---
+title: typing indicators
+description: typing indicators 页面
+---
+
 # 打字指示器
 
 # 打字指示器

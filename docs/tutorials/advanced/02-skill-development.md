@@ -1,7 +1,7 @@
 ---
-title: OpenClaw 技能开发教程 - 从零创建你的第一个技能 | 完整指南
-description: 学完这个教程，你将能够独立开发 OpenClaw 技能。包含技能结构、API 调用、测试部署全流程。复制代码模板，2 小时完成第一个技能，附审核标准。
-keywords:
+title: 02 skill development
+description: 02 skill development 页面
+---
   - OpenClaw 技能开发
   - 技能创建
   - Agent 技能
@@ -938,3 +938,13 @@ main();
 }
 </script>
 -->
+
+---
+
+## 📚 相关内容
+
+- [技能市场](/skills/)
+- [技能开发示例](/skills/github/)
+- [ClawHub](https://clawhub.ai/)
+- [工具调用](/concepts/agent-loop)
+- [高级教程](/tutorials/advanced/)

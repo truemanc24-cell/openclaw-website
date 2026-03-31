@@ -1,3 +1,8 @@
+---
+title: 05 dashboard
+description: 05 dashboard 页面
+---
+
 # 控制面板使用指南 - Web 界面操作
 
 **教程编号**: 05  
@@ -1162,3 +1167,14 @@ openclaw skills uninstall weather
 **完成时间**: 2026-03-14  
 **作者**: OpenClaw 文档团队  
 **审阅状态**: 初稿
+
+
+---
+
+## 📚 相关内容
+
+- [控制 UI](/tutorials/01-quick-start)
+- [快速开始](/tutorials/01-quick-start)
+- [配置教程](/tutorials/03-configuration)
+- [Dashboard 功能](/guide/configuration)
+- [高级用法](/tutorials/advanced/)

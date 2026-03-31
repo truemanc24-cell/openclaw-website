@@ -1,3 +1,8 @@
+---
+title: day 01 what is openclaw
+description: day 01 what is openclaw 页面
+---
+
 # Day 1: 什么是 OpenClaw？5 分钟理解 AI 网关的核心价值
 
 **教程系列**: OpenClaw 入门教程  
@@ -435,3 +440,14 @@ difficulty: "初学者"
 ---
 
 **（Day 1 教程完成）**
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/01-quick-start)
+- [安装指南](/tutorials/02-installation)
+- [核心概念](/tutorials/103-core-concepts)
+- [什么是 Agent](/concepts/agent)
+- [架构说明](/concepts/architecture)

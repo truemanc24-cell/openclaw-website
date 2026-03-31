@@ -1,3 +1,8 @@
+---
+title: about
+description: about 页面
+---
+
 # 关于 OpenClaw
 
 ## 项目愿景

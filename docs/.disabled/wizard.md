@@ -1,7 +1,7 @@
-# 入职引导 (CLI)
-
-CLI 入职引导是在 macOS、Linux 或 Windows（通过 WSL2；强烈推荐）上设置 OpenClaw 的**推荐**方式。
-它会在一个引导流程中配置本地网关或远程网关连接，以及渠道、技能和工作区默认值。
+---
+title: wizard
+description: wizard 页面
+---
 
 ```bash  theme={"theme":{"light":"min-light","dark":"min-dark"}}
 openclaw onboard

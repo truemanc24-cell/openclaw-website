@@ -1,3 +1,8 @@
+---
+title: gmail pubsub
+description: gmail pubsub 页面
+---
+
 # Gmail Pub/Sub -> OpenClaw
 
 目标：Gmail watch -> Pub/Sub push -> `gog gmail watch serve` -> OpenClaw webhook。

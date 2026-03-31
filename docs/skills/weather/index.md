@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # 天气技能
 
 **技能名称**: `weather`  

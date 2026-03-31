@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Peekaboo
 
 **技能名**: `peekaboo`  

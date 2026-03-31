@@ -1,1 +1,0 @@
-import{_ as e,o as r,c as t,a2 as l}from"./chunks/framework.BRk9mohw.js";const p=JSON.parse('{"title":"联系我们","description":"","frontmatter":{},"headers":[],"relativePath":"contact.md","filePath":"contact.md"}'),o={name:"contact.md"};function i(n,a,s,h,c,d){return r(),t("div",null,[...a[0]||(a[0]=[l("",32)])])}const g=e(o,[["render",i]]);export{p as __pageData,g as default};

@@ -1,3 +1,8 @@
+---
+title: setup
+description: setup 页面
+---
+
 # 设置
 
 <Note>

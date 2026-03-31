@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Skill Vetter
 
 **技能名**: `skill-vetter`  

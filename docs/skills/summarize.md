@@ -1,7 +1,7 @@
 ---
-name: summarize
-description: 从 URL、播客和本地文件中总结或提取文本/转录文本（"转录此 YouTube/视频"的绝佳备选方案）。
-homepage: https://summarize.sh
+title: summarize
+description: summarize 页面
+---
 metadata:
   {
     "openclaw":

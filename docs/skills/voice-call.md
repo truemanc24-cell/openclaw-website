@@ -1,7 +1,7 @@
 ---
-name: voice-call
-description: 通过 OpenClaw voice-call 插件发起语音通话。
-metadata:
+title: voice call
+description: voice call 页面
+---
   {
     "openclaw":
       {

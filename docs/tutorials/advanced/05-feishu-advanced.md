@@ -1,7 +1,7 @@
 ---
-title: 飞书机器人深度配置 - 打造企业级智能助手 | OpenClaw 教程
-description: 学完这个教程，你将能够配置企业级飞书机器人。包含权限管理、事件订阅、消息格式、应用发布全流程。20 分钟掌握企业集成，附完整配置模板。
-keywords:
+title: 05 feishu advanced
+description: 05 feishu advanced 页面
+---
   - 飞书机器人
   - 企业级配置
   - OpenClaw 教程
@@ -843,3 +843,13 @@ openclaw gateway remote enable
 }
 </script>
 -->
+
+---
+
+## 📚 相关内容
+
+- [飞书集成](/channels/feishu)
+- [配置教程](/tutorials/03-configuration)
+- [频道配对](/channels/pairing)
+- [高级功能](/tutorials/advanced/)
+- [技能开发](/skills/)

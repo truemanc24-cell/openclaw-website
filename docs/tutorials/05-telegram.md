@@ -1,3 +1,8 @@
+---
+title: 05 telegram
+description: 05 telegram 页面
+---
+
 # Telegram 渠道配置
 
 > ## 文档索引
@@ -251,3 +256,14 @@ openclaw logs --follow
 **翻译完成时间**: 2026-03-15 01:15  
 **来源**: https://docs.openclaw.ai/channels/telegram  
 **状态**: ✅ 已完成
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/01-quick-start)
+- [配置教程](/tutorials/03-configuration)
+- [WhatsApp 集成](/tutorials/04-whatsapp)
+- [频道列表](/channels/)
+- [故障排查](/tutorials/201-troubleshooting-guide)

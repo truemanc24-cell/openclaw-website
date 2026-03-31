@@ -1,3 +1,8 @@
+---
+title: background process
+description: background process 页面
+---
+
 # 后台执行 + 进程工具
 
 OpenClaw 通过 `exec` 工具运行 shell 命令，并将长期运行的任务保留在内存中。`process` 工具管理这些后台会话。

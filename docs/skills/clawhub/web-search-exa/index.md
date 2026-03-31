@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Web Search by Exa
 
 **技能名**: `web-search-exa`  

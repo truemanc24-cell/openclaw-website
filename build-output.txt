@@ -1,0 +1,37 @@
+
+> trueworld-labs@1.0.0 docs:build
+> vitepress build docs
+
+
+  vitepress v1.6.4
+
+- building client + server bundles...
+
+The language 'caddy' is not loaded, falling back to 'txt' for syntax highlighting.
+
+The language 'gitignore' is not loaded, falling back to 'txt' for syntax highlighting.
+x Build failed in 566ms
+[31m✖[0m building client + server bundles...
+
+The language 'gitignore' is not loaded, falling back to 'txt' for syntax highlighting.
+
+The language 'gitignore' is not loaded, falling back to 'txt' for syntax highlighting.
+build error:
+[vitepress] duplicated mapping key at line 46, column 5:
+        link: /tutorials/
+        ^
+file: /Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/docs/index.md
+[vitepress] duplicated mapping key at line 46, column 5:
+        link: /tutorials/
+        ^
+file: /Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/docs/index.md
+    at generateError (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:20079:11)
+    at throwError (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:20085:10)
+    at storeMappingPair (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:20247:8)
+    at readBlockMapping (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21010:10)
+    at composeNode (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21271:13)
+    at readBlockSequence (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:20867:6)
+    at composeNode (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21270:13)
+    at readBlockMapping (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21001:12)
+    at composeNode (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21271:13)
+    at readDocument (file:///Users/trueman/Desktop/mark/2026-03-12_OpenClaw_Website/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:21437:4)

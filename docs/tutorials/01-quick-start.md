@@ -1,3 +1,8 @@
+---
+title: 01 quick start
+description: 01 quick start 页面
+---
+
 # 入门指南
 
 目标：以最少的设置从零到第一次聊天。
@@ -76,3 +81,14 @@ openclaw message send --target +15555550123 --message "Hello from OpenClaw"
 * DM 安全和审批：配对
 * 连接更多频道：频道
 * 高级工作流和源码：设置
+
+
+---
+
+## 📚 相关内容
+
+- [安装指南](/tutorials/02-installation)
+- [配置教程](/tutorials/03-configuration)
+- [核心概念](/tutorials/103-core-concepts)
+- [快速开始指南](/tutorials/101-quick-start-guide)
+- [故障排查](/tutorials/201-troubleshooting-guide)

@@ -1,0 +1,1 @@
+import{_ as t,o as d,c as e,a2 as r}from"./chunks/framework.CGYl2SZ_.js";const a=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"_service-cta.md","filePath":"_service-cta.md"}');const i=t({name:"_service-cta.md"},[["render",function(t,a,i,o,l,s){return d(),e("div",null,[...a[0]||(a[0]=[r("",7)])])}]]);export{a as __pageData,i as default};

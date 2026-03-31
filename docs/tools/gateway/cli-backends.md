@@ -1,3 +1,8 @@
+---
+title: cli backends
+description: cli backends 页面
+---
+
 # CLI 后端（回退运行时）
 
 OpenClaw 可以将**本地 AI CLI** 作为**纯文本回退**运行，当 API 提供商宕机、速率受限或临时表现异常时。这是刻意保守的：

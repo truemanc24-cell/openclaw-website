@@ -1,6 +1,6 @@
 ---
-名称: "multi-search-engine"
-描述: "集成 17 个搜索引擎（8 个国内 + 9 个国际）。支持高级搜索运算符、时间过滤器、站点搜索、隐私搜索引擎和 WolframAlpha 知识查询。无需 API 密钥。"
+title: multi search engine
+description: multi search engine 页面
 ---
 
 # Multi Search Engine v2.0.1

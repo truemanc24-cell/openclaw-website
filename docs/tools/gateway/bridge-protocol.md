@@ -1,3 +1,8 @@
+---
+title: bridge protocol
+description: bridge protocol 页面
+---
+
 # 桥接协议（遗留节点传输）
 
 桥接协议是一个**遗留**节点传输（TCP JSONL）。新节点客户端应改用统一的网关 WebSocket 协议。

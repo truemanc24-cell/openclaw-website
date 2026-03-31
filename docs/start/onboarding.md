@@ -1,3 +1,8 @@
+---
+title: onboarding
+description: onboarding 页面
+---
+
 # 入职引导 (macOS 应用)
 
 本文档描述**当前**的首次运行设置流程。目标是实现顺畅的"第 0 天"体验：

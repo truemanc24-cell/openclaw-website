@@ -1,3 +1,8 @@
+---
+title: authentication
+description: authentication 页面
+---
+
 # 认证
 
 OpenClaw 支持模型提供商的 OAuth 和 API 密钥。对于永远在线的网关主机，API 密钥通常是最可预测的选项。当它们与你的提供商账户模型匹配时，也支持订阅/OAuth 流程。

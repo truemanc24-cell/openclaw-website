@@ -1,7 +1,7 @@
 ---
-title: 多 Agent 配置实战 - 30 分钟搭建协作系统 | OpenClaw 教程
-description: 学完这个教程，你将能够配置多 Agent 协作系统。包含角色分工、通信机制、任务分配实战示例。复制配置模板，30 分钟完成搭建，附常见问题解答。
-keywords:
+title: 01 multi agent setup
+description: 01 multi agent setup 页面
+---
   - 多 Agent 配置
   - Agent 协作
   - OpenClaw 教程
@@ -608,3 +608,13 @@ openclaw logs | grep -i error
 }
 </script>
 -->
+
+---
+
+## 📚 相关内容
+
+- [多 Agent 协作](/concepts/agent)
+- [子 Agent 配置](/concepts/agent-loop)
+- [技能开发](/skills/)
+- [高级配置](/tutorials/03-configuration)
+- [浏览器自动化](/tutorials/advanced/04-browser-automation)

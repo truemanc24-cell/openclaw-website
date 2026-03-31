@@ -1,7 +1,7 @@
-# 入门指南
-
-目标：从零开始，只需最少的设置即可实现第一次聊天。
-
+---
+title: getting started
+description: getting started 页面
+---
 <Info>
   最快聊天方式：打开控制界面（无需设置渠道）。运行 `openclaw dashboard`
   并在浏览器中聊天，或在

@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "terser": "^5.46.1",
     "vitepress": "^1.6.4"
   },
   "dependencies": {

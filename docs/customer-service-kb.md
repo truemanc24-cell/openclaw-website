@@ -1,3 +1,8 @@
+---
+title: customer service kb
+description: customer service kb 页面
+---
+
 # 🤖 AI 客服知识库
 
 **最后更新**: 2026-03-29  

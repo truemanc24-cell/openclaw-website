@@ -1,3 +1,8 @@
+---
+title: node issue
+description: node issue 页面
+---
+
 # Node + tsx "\_\_name is not a function" 崩溃
 
 ## 摘要

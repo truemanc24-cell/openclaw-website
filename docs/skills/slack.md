@@ -1,7 +1,7 @@
 ---
-name: slack
-description: 当你需要通过 slack 工具控制 Slack 时使用，包括在 Slack 渠道或 DM 中对消息进行反应或固定/取消固定项目。
-metadata: { "openclaw": { "emoji": "💬", "requires": { "config": ["channels.slack"] } } }
+title: slack
+description: slack 页面
+---
 ---
 
 # Slack 操作

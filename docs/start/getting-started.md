@@ -1,7 +1,7 @@
 ---
-layout: page
-title: 快速开始
-sidebar: false
+title: getting started
+description: getting started 页面
+---
 ---
 
 # ⚡ 3 分钟快速开始

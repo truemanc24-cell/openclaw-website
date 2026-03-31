@@ -1,3 +1,8 @@
+---
+title: discovery
+description: discovery 页面
+---
+
 # 发现
 
 OpenClaw 支持多种发现机制来定位网关。

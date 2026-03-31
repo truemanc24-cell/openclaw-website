@@ -1,3 +1,8 @@
+---
+title: 04 telegram
+description: 04 telegram 页面
+---
+
 # 连接第一个聊天渠道 - Telegram 实战
 
 **教程编号**: 04  
@@ -1219,3 +1224,14 @@ openclaw logs --grep "from tg:"
 **完成时间**: 2026-03-14  
 **作者**: OpenClaw 文档团队  
 **审阅状态**: 初稿
+
+
+---
+
+## 📚 相关内容
+
+- [Telegram 完整教程](/tutorials/05-telegram)
+- [快速开始](/tutorials/01-quick-start)
+- [配置教程](/tutorials/03-configuration)
+- [频道列表](/channels/)
+- [故障排查](/tutorials/201-troubleshooting-guide)

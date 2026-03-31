@@ -1,3 +1,8 @@
+---
+title: irc
+description: irc 页面
+---
+
 # IRC
 
 > 将 OpenClaw 连接到 IRC 频道和私信。

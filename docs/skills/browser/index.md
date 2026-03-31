@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # 浏览器自动化技能
 
 **技能名称**: `browser`  

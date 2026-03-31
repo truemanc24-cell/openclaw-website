@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Baidu Web Search
 
 **技能名**: `baidu-search`  

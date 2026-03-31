@@ -1,3 +1,8 @@
+---
+title: canvas
+description: canvas 页面
+---
+
 # Canvas 技能
 
 在连接的 OpenClaw 节点（Mac 应用、iOS、Android）上显示 HTML 内容。

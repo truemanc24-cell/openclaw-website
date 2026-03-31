@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Spotify Player
 
 **技能名**: `spotify-player`  

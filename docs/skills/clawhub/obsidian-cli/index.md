@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Obsidian CLI
 
 **技能名**: `obsidian-cli`  

@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Openai Whisper Api
 
 **技能名**: `openai-whisper-api`  

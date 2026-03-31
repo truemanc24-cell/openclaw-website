@@ -1,7 +1,7 @@
 ---
-名称: skill-vetter
-版本: 1.0.0
-描述: 面向 AI 代理的安全优先技能审查。在从 ClawdHub、GitHub 或其他来源安装任何技能之前使用。检查红旗、权限范围和可疑模式。
+title: skill vetter
+description: skill vetter 页面
+---
 ---
 
 # 技能审查员 🔒

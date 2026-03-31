@@ -1,3 +1,8 @@
+---
+title: 02 installation
+description: 02 installation 页面
+---
+
 # 环境准备和安装 - 从零开始部署 OpenClaw
 
 **教程编号**: 02  
@@ -847,3 +852,14 @@ npm config get registry
 **完成时间**: 2026-03-14  
 **作者**: OpenClaw 文档团队  
 **审阅状态**: 初稿
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/01-quick-start)
+- [完整安装指南](/tutorials/02-installation)
+- [配置教程](/tutorials/03-configuration)
+- [系统要求](/tutorials/02-installation#系统要求)
+- [故障排查](/tutorials/201-troubleshooting-guide)

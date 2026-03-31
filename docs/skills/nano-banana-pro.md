@@ -1,6 +1,6 @@
 ---
-名称: nano-banana-pro
-描述: 使用 Nano Banana Pro（Gemini 3 Pro Image）生成/编辑图像。用于图像创建/修改请求，包括编辑。支持文本到图像 + 图像到图像；1K/2K/4K；使用 --input-image。
+title: nano banana pro
+description: nano banana pro 页面
 ---
 
 # Nano Banana Pro 图像生成与编辑

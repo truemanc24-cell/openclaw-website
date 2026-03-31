@@ -1,3 +1,8 @@
+---
+title: 01 what is openclaw
+description: 01 what is openclaw 页面
+---
+
 # OpenClaw 是什么？5 分钟理解 AI 网关的核心价值
 
 **教程编号**: 01  
@@ -753,3 +758,14 @@ openclaw dashboard
 **完成时间**: 2026-03-14  
 **作者**: OpenClaw 文档团队  
 **审阅状态**: 初稿
+
+
+---
+
+## 📚 相关内容
+
+- [快速开始](/tutorials/01-quick-start)
+- [安装指南](/tutorials/02-installation)
+- [配置教程](/tutorials/03-configuration)
+- [核心概念](/tutorials/103-core-concepts)
+- [频道配置](/channels/)

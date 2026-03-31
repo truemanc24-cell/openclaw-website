@@ -1,3 +1,8 @@
+---
+title: getting started
+description: getting started 页面
+---
+
 # 快速开始
 
 ## 安装

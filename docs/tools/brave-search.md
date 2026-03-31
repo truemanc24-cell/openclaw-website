@@ -1,3 +1,8 @@
+---
+title: brave search
+description: brave search 页面
+---
+
 # Brave Search API
 
 OpenClaw 支持将 Brave Search API 作为 `web_search` 提供商。

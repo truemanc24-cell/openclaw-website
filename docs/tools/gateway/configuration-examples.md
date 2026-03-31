@@ -1,3 +1,8 @@
+---
+title: configuration examples
+description: configuration examples 页面
+---
+
 # 配置示例
 
 以下是常见设置的可复制配置示例。

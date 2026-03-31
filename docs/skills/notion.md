@@ -1,7 +1,7 @@
 ---
-name: notion
-description: Notion API 用于创建和管理页面、数据库和块。
-homepage: https://developers.notion.com
+title: notion
+description: notion 页面
+---
 metadata:
   {
     "openclaw":

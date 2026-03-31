@@ -1,7 +1,7 @@
 ---
-name: github
-description: "通过 `gh` CLI 进行 GitHub 操作：issues、PR、CI 运行、代码审查、API 查询。使用时机：(1) 查看 PR 状态或 CI，(2) 创建/评论 issues，(3) 列出/过滤 PRs 或 issues，(4) 查看运行日志。不适用于：需要手动浏览器流程的复杂 web UI 交互（使用浏览器工具），跨很多仓库的批量操作（使用 gh api 脚本），或 gh 未配置的情况。"
-metadata:
+title: github
+description: github 页面
+---
   {
     "openclaw":
       {

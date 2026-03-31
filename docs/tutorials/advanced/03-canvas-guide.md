@@ -1,7 +1,7 @@
 ---
-title: Canvas 使用指南 - 实时渲染与交互界面开发 | OpenClaw 教程
-description: 学完这个教程，你将能够使用 Canvas 创建实时渲染界面。包含 Canvas 配置、网页渲染、图表展示实战示例。15 分钟快速上手，附完整代码示例。
-keywords:
+title: 03 canvas guide
+description: 03 canvas guide 页面
+---
   - Canvas 使用指南
   - 实时渲染
   - 交互界面
@@ -830,3 +830,13 @@ Canvas 是 OpenClaw 最强大的可视化能力：
 }
 </script>
 -->
+
+---
+
+## 📚 相关内容
+
+- [Canvas 概念](/concepts/context)
+- [浏览器自动化](/tutorials/advanced/04-browser-automation)
+- [工具使用](/tools/)
+- [技能市场](/skills/)
+- [高级功能](/tutorials/advanced/)

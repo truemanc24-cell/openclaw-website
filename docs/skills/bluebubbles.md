@@ -1,7 +1,7 @@
 ---
-name: bluebubbles
-description: 当你需要通过 BlueBubbles（推荐的 iMessage 集成）发送或管理 iMessages 时使用。调用通过通用 message 工具进行，channel="bluebubbles"。
-metadata: { "openclaw": { "emoji": "🫧", "requires": { "config": ["channels.bluebubbles"] } } }
+title: bluebubbles
+description: bluebubbles 页面
+---
 ---
 
 # BlueBubbles 操作

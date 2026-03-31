@@ -1,3 +1,8 @@
+---
+title: index
+description: index 页面
+---
+
 # Camsnap
 
 **技能名**: `camsnap`  

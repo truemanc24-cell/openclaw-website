@@ -1,3 +1,8 @@
+---
+title: 03 wizard
+description: 03 wizard 页面
+---
+
 # 运行向导配置 - 10 分钟完成初始设置
 
 **教程编号**: 03  
@@ -1252,3 +1257,14 @@ openclaw onboard \
 **完成时间**: 2026-03-14  
 **作者**: OpenClaw 文档团队  
 **审阅状态**: 初稿
+
+
+---
+
+## 📚 相关内容
+
+- [入门向导](/tutorials/01-05-intro/00-COMPLETION-REPORT)
+- [快速开始](/tutorials/01-quick-start)
+- [配置教程](/tutorials/03-configuration)
+- [命令行工具](/guide/configuration)
+- [Dashboard](/tutorials/01-05-intro/05-dashboard)

@@ -89,6 +89,29 @@ export default defineConfig({
   
   ignoreDeadLinks: true,
   
+  // Vite 构建优化
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 500,
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        },
+      },
+    },
+  },
+  
+  // 启用页面懒加载
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => tag.startsWith('ion-'),
+      },
+    },
+  },
+  
   // 使用自定义主题
   themeConfig: {
     nav: [
@@ -96,6 +119,7 @@ export default defineConfig({
       { text: '📚 教程', link: '/tutorials/' },
       { text: '🛠️ 技能', link: '/skills/' },
       { text: '📰 AI 新闻', link: '/news/' },
+      { text: '💼 服务', link: '/services' },
       { text: '🤖 客服', link: '/customer-service-kb' },
       { text: 'ℹ️ 关于', link: '/about' }
     ],

@@ -1,7 +1,7 @@
 ---
-name: weather
-description: "通过 wttr.in 或 Open-Meteo 获取当前天气和预报。使用时机：用户询问任何地点的天气、温度或预报。不适用于：历史天气数据、恶劣天气警报或详细气象分析。无需 API 密钥。"
-homepage: https://wttr.in/:help
+title: weather
+description: weather 页面
+---
 metadata: { "openclaw": { "emoji": "☔", "requires": { "bins": ["curl"] } } }
 ---
 
